@@ -216,6 +216,7 @@ colorscheme tokyonight-storm
 colorscheme tokyonight-day
 colorscheme tokyonight-moon
 colorscheme tokyonight-fire
+colorscheme tokyonight-softpaper
 ```
 
 Some plugins need extra configuration to work with **TokyoNight**.
@@ -261,8 +262,8 @@ let g:lightline = {'colorscheme': 'tokyonight'}
 > [!IMPORTANT]
 > Set the configuration **BEFORE** loading the color scheme with `colorscheme tokyonight`.
 
-The theme offers five styles: [storm](#storm), [moon](#moon), [night](#night),
-[day](#day), and [fire](#fire).
+The theme offers six styles: [storm](#storm), [moon](#moon), [night](#night),
+[day](#day), [fire](#fire), and [softpaper](#softpaper).
 
 The [day](#day) style is used when `{ style = "day" }` is passed to
 `setup(options)` or when `vim.o.background = "light"`.
@@ -280,7 +281,7 @@ unless `setup` is explicitly called.
 ---@field on_colors fun(colors: ColorScheme)
 ---@field on_highlights fun(highlights: tokyonight.Highlights, colors: ColorScheme)
 M.defaults = {
-  style = "moon", -- The theme comes in five styles, `storm`, a darker variant `night`, `day`, and `fire`
+  style = "moon", -- The theme comes in six styles, `storm`, a darker variant `night`, `day`, `fire`, and `softpaper`
   light_style = "day", -- The theme is used when the background is set to light
   transparent = false, -- Enable this to disable setting the background color
   terminal_colors = true, -- Configure the colors used when opening a `:terminal` in Neovim
