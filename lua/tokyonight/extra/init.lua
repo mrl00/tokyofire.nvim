@@ -65,6 +65,7 @@ function M.setup()
     night = "",
     day = " Day",
     moon = " Moon",
+    fire = " Fire",
   }
 
   ---@type string[]
