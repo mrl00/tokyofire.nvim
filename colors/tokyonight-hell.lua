@@ -1,3 +1,3 @@
 require("tokyonight").load({
-  style = "hellfire",
+  style = "hell",
 })
