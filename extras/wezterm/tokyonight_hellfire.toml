@@ -1,0 +1,45 @@
+[colors]
+foreground = "#ffeedd"
+background = "#1c0f0a"
+cursor_bg = "#ffeedd"
+cursor_border = "#ffeedd"
+cursor_fg = "#1c0f0a"
+selection_bg = "#663825"
+selection_fg = "#ffeedd"
+split = "#ffeedd"
+compose_cursor = "#ff7733"
+scrollbar_thumb = "#331a12"
+
+ansi = ["#160c08", "#ff4444", "#ff7744", "#ffbb33", "#ffeedd", "#ff5588", "#ff9966", "#cc9988"]
+brights = ["#4a2218", "#ff6565", "#ff8e6e", "#ffcc87", "#ffffff", "#ff7297", "#ffad8b", "#ffeedd"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#150b07"
+background = "#1c0f0a"
+
+[colors.tab_bar.active_tab]
+fg_color = "#150b07"
+bg_color = "#ffeedd"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#664433"
+bg_color = "#331a12"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#ffeedd"
+bg_color = "#331a12"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#ffeedd"
+bg_color = "#1c0f0a"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#ffeedd"
+bg_color = "#1c0f0a"
+
+[metadata]
+aliases = []
+author = "folke"
+name = "tokyonight_hellfire"

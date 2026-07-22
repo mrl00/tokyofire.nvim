@@ -1,0 +1,28 @@
+{
+  "name": "Tokyo Night Hell Fire",
+  "version": 1,
+  "shared": {
+    "backgroundColor": "#1c0f0a",
+    "colorPaletteOverrides": [
+      "#160c08",
+      "#ff4444",
+      "#ff7744",
+      "#ffbb33",
+      "#ffeedd",
+      "#ff5588",
+      "#ff9966",
+      "#cc9988",
+      "#4a2218",
+      "#ff6565",
+      "#ff8e6e",
+      "#ffcc87",
+      "#ffffff",
+      "#ff7297",
+      "#ffad8b",
+      "#ffeedd",
+    ],
+    "cursorColor": "#ffeedd",
+    "foregroundColor": "#ffeedd"
+  }
+}
+

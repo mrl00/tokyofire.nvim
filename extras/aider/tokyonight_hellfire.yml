@@ -1,0 +1,16 @@
+assistant-output-color: "#ffeedd"
+
+# see the aider extra README for more information about setting the `code-theme`
+# https://github.com/folke/tokyonight.nvim/blob/extras/aider/README.md
+# code-theme: tokyonight-hellfire
+
+completion-menu-color: "#ffeedd"
+completion-menu-bg-color: "#150b07"
+completion-menu-current-color: "#ffeedd"
+completion-menu-current-bg-color: "#331a12"
+
+tool-error-color: "#dd3333"
+tool-output-color: "#ffeedd"
+tool-warning-color: "#ffbb33"
+
+user-input-color: "#ff7744"

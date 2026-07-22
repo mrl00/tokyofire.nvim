@@ -1,0 +1,63 @@
+{
+  "$schema": "https://raw.githubusercontent.com/badlogic/pi-mono/main/packages/coding-agent/src/modes/interactive/theme/theme-schema.json",
+  "name": "Tokyo Night Hell Fire",
+  "colors": {
+    "accent": "#ffeedd",
+    "border": "#d28b61",
+    "borderAccent": "#ff9966",
+    "borderMuted": "#160c08",
+    "success": "#ff8833",
+    "error": "#dd3333",
+    "warning": "#ffbb33",
+    "muted": "#cc9988",
+    "dim": "#997766",
+    "text": "",
+    "thinkingText": "#996655",
+
+    "selectedBg": "#663825",
+    "userMessageBg": "#150b07",
+    "userMessageText": "",
+    "customMessageBg": "#150b07",
+    "customMessageText": "",
+    "customMessageLabel": "#ff5588",
+    "toolPendingBg": "#331a12",
+    "toolSuccessBg": "#331a12",
+    "toolErrorBg": "#26110c",
+    "toolTitle": "",
+    "toolOutput": "#cc9988",
+
+    "mdHeading": "#ffeedd",
+    "mdLink": "#ff7744",
+    "mdLinkUrl": "#996655",
+    "mdCode": "#ffeedd",
+    "mdCodeBlock": "#150b07",
+    "mdCodeBlockBorder": "#996655",
+    "mdQuote": "#996655",
+    "mdQuoteBorder": "#996655",
+    "mdHr": "#ff7733",
+    "mdListBullet": "#ff7733",
+
+    "toolDiffAdded": "#4a291b",
+    "toolDiffRemoved": "#4c1814",
+    "toolDiffContext": "#4a2218",
+
+    "syntaxComment": "#996655",
+    "syntaxKeyword": "#ff5588",
+    "syntaxFunction": "#ffeedd",
+    "syntaxVariable": "#ffeedd",
+    "syntaxString": "#ff7744",
+    "syntaxNumber": "#ff7733",
+    "syntaxType": "#ffaa77",
+    "syntaxOperator": "#ffcc44",
+    "syntaxPunctuation": "#ffcc44",
+
+    "thinkingOff": "#664433",
+    "thinkingMinimal": "#997766",
+    "thinkingLow": "#4a2218",
+    "thinkingMedium": "#ffeedd",
+    "thinkingHigh": "#ff5588",
+    "thinkingXhigh": "#ff5588",
+
+    "bashMode": "#ff7733"
+  }
+}

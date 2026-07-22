@@ -163,6 +163,7 @@ end
 function M.cache.clear()
   uv.fs_unlink(M.cache.file("fire"))
   uv.fs_unlink(M.cache.file("whitefire"))
+  uv.fs_unlink(M.cache.file("hellfire"))
 end
 
 return M
