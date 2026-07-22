@@ -1,8 +1,8 @@
 ---@type Palette
 return {
-  bg = "#faf5f3",
-  bg_dark = "#f0ebe8",
-  bg_dark1 = "#e8e0dc",
+  bg = "#fdfcfc",
+  bg_dark = "#f5f2f0",
+  bg_dark1 = "#ede8e5",
   bg_highlight = "#2c2523",
   blue = "#2c1e1a",
   blue0 = "#a65c43",
@@ -17,7 +17,7 @@ return {
   dark5 = "#4a3a34",
   fg = "#2c1e1a",
   fg_dark = "#5a4a44",
-  fg_gutter = "#d0c4c0",
+  fg_gutter = "#ddd4d0",
   green = "#9e4d2a",
   green1 = "#b86b00",
   green2 = "#a65c43",
