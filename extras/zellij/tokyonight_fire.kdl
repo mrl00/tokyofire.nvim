@@ -4,19 +4,19 @@
 
 themes {
     tokyonight_fire {
-        fg "#fbeee6"
-        bg "#2c2523"
+        fg "#fff4ee"
+        bg "#30201b"
         // Black should match the terminal background color
         // This ensures the top and bottom bars are transparent
-        black "#1a1615"
-        red "#ff9994"
-        green "#f1a98c"
-        yellow "#fde3a7"
-        blue "#fbeee6"
-        magenta "#ff9ebb"
-        cyan "#fbc5b0"
-        white "#a08a85"
-        orange "#f5b041"
+        black "#1b1310"
+        red "#ff6e6c"
+        green "#f89068"
+        yellow "#fede6d"
+        blue "#fceed2"
+        magenta "#f56d88"
+        cyan "#fdaf8b"
+        white "#dfbdba"
+        orange "#fa933a"
     }
 }
 

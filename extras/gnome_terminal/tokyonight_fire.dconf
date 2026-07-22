@@ -5,14 +5,14 @@
 # 4. Execute `dconf load /org/gnome/terminal/legacy/profiles:/ < tokyonight_fire.dconf`
 
 [:<PROFILE_UUID>]
-background-color='rgb(26, 22, 21)'
-cursor-background-color='rgb(251, 238, 230)'
+background-color='rgb(27, 19, 16)'
+cursor-background-color='rgb(255, 244, 238)'
 cursor-colors-set=true
-cursor-foreground-color='rgb(26, 22, 21)'
-foreground-color='rgb(251, 238, 230)'
-highlight-background-color='rgb(251, 238, 230)'
+cursor-foreground-color='rgb(27, 19, 16)'
+foreground-color='rgb(255, 244, 238)'
+highlight-background-color='rgb(255, 244, 238)'
 highlight-colors-set=true
-highlight-foreground-color='rgb(26, 22, 21)'
-palette=['rgb(61, 46, 42)', 'rgb(255, 153, 148)', 'rgb(241, 169, 140)', 'rgb(253, 227, 167)', 'rgb(251, 238, 230)', 'rgb(255, 158, 187)', 'rgb(251, 197, 176)', 'rgb(251, 238, 230)', 'rgb(61, 46, 42)', 'rgb(255, 153, 148)', 'rgb(241, 169, 140)', 'rgb(253, 227, 167)', 'rgb(251, 238, 230)', 'rgb(255, 158, 187)', 'rgb(251, 197, 176)', 'rgb(251, 238, 230)']
+highlight-foreground-color='rgb(27, 19, 16)'
+palette=['rgb(68, 40, 33)', 'rgb(255, 110, 108)', 'rgb(248, 144, 104)', 'rgb(254, 222, 109)', 'rgb(252, 238, 210)', 'rgb(245, 109, 136)', 'rgb(253, 175, 139)', 'rgb(255, 244, 238)', 'rgb(68, 40, 33)', 'rgb(255, 110, 108)', 'rgb(248, 144, 104)', 'rgb(254, 222, 109)', 'rgb(252, 238, 210)', 'rgb(245, 109, 136)', 'rgb(253, 175, 139)', 'rgb(255, 244, 238)']
 use-theme-colors=false
 visible-name='Tokyo Night Fire'

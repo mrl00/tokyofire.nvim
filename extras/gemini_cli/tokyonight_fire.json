@@ -2,39 +2,39 @@
   "name": "Tokyo Night Fire",
   "type": "custom",
   "text": {
-    "primary": "#fbeee6",
-    "secondary": "#a08a85",
-    "response": "#fbeee6"
+    "primary": "#fff4ee",
+    "secondary": "#dfbdba",
+    "response": "#fff4ee"
   },
   "background": {
-    "primary": "#1a1615",
+    "primary": "#1b1310",
     "diff": {
-      "added": "#453732",
-      "removed": "#4c2d2c"
+      "added": "#4a3328",
+      "removed": "#4c2321"
     }
   },
   "border": {
-    "default": "#2c2523",
-    "focused": "#fbeee6"
+    "default": "#30201b",
+    "focused": "#fceed2"
   },
   "ui": {
-    "comment": "#7f6c68",
-    "symbol": "#a08a85",
-    "gradient": ["#fbeee6", "#ff9ebb", "#fbc5b0"]
+    "comment": "#b08379",
+    "symbol": "#dfbdba",
+    "gradient": ["#fceed2", "#f56d88", "#fdaf8b"]
   },
-  "Background": "#1a1615",
-  "Foreground": "#fbeee6",
-  "LightBlue": "#fbc5b0",
-  "AccentBlue": "#ff9ebb",
-  "AccentPurple": "#ff9ebb",
-  "AccentCyan": "#fbc5b0",
-  "AccentGreen": "#f5b041",
-  "AccentYellow": "#f1a98c",
-  "AccentRed": "#ff9994",
-  "DiffAdded": "#453732",
-  "DiffRemoved": "#4c2d2c",
-  "Comment": "#7f6c68",
-  "Gray": "#a08a85",
-  "DarkGray": "#141110",
-  "GradientColors": ["#fbeee6", "#ff9ebb", "#fbc5b0"]
+  "Background": "#1b1310",
+  "Foreground": "#fff4ee",
+  "LightBlue": "#fdb594",
+  "AccentBlue": "#f56d88",
+  "AccentPurple": "#f56d88",
+  "AccentCyan": "#fdaf8b",
+  "AccentGreen": "#fa933a",
+  "AccentYellow": "#f89068",
+  "AccentRed": "#ff6e6c",
+  "DiffAdded": "#4a3328",
+  "DiffRemoved": "#4c2321",
+  "Comment": "#b08379",
+  "Gray": "#dfbdba",
+  "DarkGray": "#150e0c",
+  "GradientColors": ["#fceed2", "#f56d88", "#fdaf8b"]
 }

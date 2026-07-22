@@ -1,63 +1,63 @@
 [Background]
-Color=26,22,21
+Color=27,19,16
 
 [BackgroundIntense]
-Color=94,75,68
+Color=102,69,54
 
 [Foreground]
-Color=251,238,230
+Color=255,244,238
 
 [ForegroundIntense]
 Bold=true
-Color=251,238,230
+Color=255,244,238
 
 [Color0]
-Color=#151211
+Color=#160f0d
 
 [Color0Intense]
-Color=#3d2e2a
+Color=#442821
 
 [Color1]
-Color=#ff9994
+Color=#ff6e6c
 
 [Color1Intense]
-Color=#ffaeaa
+Color=#ff8685
 
 [Color2]
-Color=#f1a98c
+Color=#f89068
 
 [Color2Intense]
-Color=#fdb89d
+Color=#ffa181
 
 [Color3]
-Color=#fde3a7
+Color=#fede6d
 
 [Color3Intense]
-Color=#fff3da
+Color=#ffedbd
 
 [Color4]
-Color=#fbeee6
+Color=#fceed2
 
 [Color4Intense]
-Color=#fffffe
+Color=#fffdfb
 
 [Color5]
-Color=#ff9ebb
+Color=#f56d88
 
 [Color5Intense]
-Color=#ffb3c9
+Color=#ff7f97
 
 [Color6]
-Color=#fbc5b0
+Color=#fdaf8b
 
 [Color6Intense]
-Color=#ffd6c8
+Color=#ffc1a8
 
 [Color7]
-Color=#a08a85
+Color=#dfbdba
 
 [Color7Intense]
-Color=#fbeee6
+Color=#fff4ee
 
 [General]
 Description=Tokyo Night Fire

@@ -2,62 +2,62 @@
 Description=Tokyo Night Fire
 
 [Background]
-Color=26,22,21
+Color=27,19,16
 
 [BackgroundIntense]
-Color=26,22,21
+Color=27,19,16
 
 [Foreground]
-Color=251,238,230
+Color=255,244,238
 
 [ForegroundIntense]
-Color=251,238,230
+Color=255,244,238
 
 [Color0]
-Color=21,18,17
+Color=22,15,13
 
 [Color1]
-Color=255,153,148
+Color=255,110,108
 
 [Color2]
-Color=241,169,140
+Color=248,144,104
 
 [Color3]
-Color=253,227,167
+Color=254,222,109
 
 [Color4]
-Color=251,238,230
+Color=252,238,210
 
 [Color5]
-Color=255,158,187
+Color=245,109,136
 
 [Color6]
-Color=251,197,176
+Color=253,175,139
 
 [Color7]
-Color=160,138,133
+Color=223,189,186
 
 [Color0Intense]
-Color=61,46,42
+Color=68,40,33
 
 [Color1Intense]
-Color=255,174,170
+Color=255,134,133
 
 [Color2Intense]
-Color=253,184,157
+Color=255,161,129
 
 [Color3Intense]
-Color=255,243,218
+Color=255,237,189
 
 [Color4Intense]
-Color=255,255,254
+Color=255,253,251
 
 [Color5Intense]
-Color=255,179,201
+Color=255,127,151
 
 [Color6Intense]
-Color=255,214,200
+Color=255,193,168
 
 [Color7Intense]
-Color=251,238,230
+Color=255,244,238
 
