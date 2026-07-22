@@ -24,7 +24,7 @@ Includes [extra](#-extras) themes for
 - Supports all major plugins.
 - Provides [TokyoFire](https://github.com/folke/tokyonight.nvim)
   [extras](#-extras) for numerous other applications.
-- Two styles: `fire` (default) and `whitefire` (brighter text).
+- Three styles: `fire` (default), `whitefire` (brighter text), and `hell` (intense warm colors).
 
 <details>
 <summary>🎨 Supported Plugins</summary>
@@ -176,7 +176,8 @@ Install the theme with your preferred package manager, such as
 
 ```lua
 {
-  "tokyofire.nvim",
+  "mrl00/tokyofire.nvim",
+  name = "tokyonight",
   lazy = false,
   priority = 1000,
   opts = {},
@@ -195,6 +196,7 @@ colorscheme tokyonight
 " Or choose a specific style:
 colorscheme tokyonight-fire
 colorscheme tokyonight-whitefire
+colorscheme tokyonight-hell
 ```
 
 Some plugins need extra configuration to work with **TokyoFire**.
@@ -220,7 +222,7 @@ require('barbecue').setup {
 require('lualine').setup {
   options = {
     -- ... your lualine config
-    theme = 'tokyonight'
+    theme = 'tokyonight'  -- or 'tokyonight-fire', 'tokyonight-whitefire', 'tokyonight-hell'
     -- ... your lualine config
   }
 }
@@ -240,9 +242,10 @@ let g:lightline = {'colorscheme': 'tokyonight'}
 > [!IMPORTANT]
 > Set the configuration **BEFORE** loading the color scheme with `colorscheme tokyonight`.
 
-[TokyoFire](https://github.com/folke/tokyonight.nvim) comes in two styles:
-- `fire` (default) — warm dark theme
+[TokyoFire](https://github.com/mrl00/tokyofire.nvim) comes in three styles:
+- `fire` (default) — balanced warm theme, midpoint between whitefire and hell
 - `whitefire` — same dark background with brighter text colors
+- `hell` — intense warm colors with strong reds and oranges
 
 <details>
   <summary>Default Options</summary>
