@@ -3,7 +3,6 @@ local M = {}
 M.bg = "#000000"
 M.fg = "#ffffff"
 
-
 local uv = vim.uv or vim.loop
 
 ---@param c  string
@@ -163,6 +162,7 @@ end
 
 function M.cache.clear()
   uv.fs_unlink(M.cache.file("fire"))
+  uv.fs_unlink(M.cache.file("whitefire"))
 end
 
 return M

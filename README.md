@@ -1,12 +1,20 @@
 # 🔥 Tokyo Fire
 
 A warm, fire-themed [Neovim](https://github.com/neovim/neovim) theme written in
-[Lua](https://www.lua.org), based on
-[TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme). Includes
-[extra](#-extras) themes for [Kitty](https://sw.kovidgoyal.net/kitty/conf.html),
+[Lua](https://www.lua.org), a derivative of
+[tokyonight.nvim](https://github.com/folke/tokyonight.nvim) by
+[Folke Lemaitre](https://github.com/folke). Originally based on the
+[Visual Studio Code TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme.
+Includes [extra](#-extras) themes for
+[Kitty](https://sw.kovidgoyal.net/kitty/conf.html),
 [Alacritty](https://github.com/alacritty/alacritty),
 [iTerm](https://iterm2.com/) and
 [Fish](https://fishshell.com/docs/current/index.html).
+
+> **License:** This project is licensed under the
+> [Apache License 2.0](LICENSE). This is a derivative work of
+> [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim),
+> which is also licensed under Apache 2.0.
 
 ## ✨ Features
 
@@ -16,6 +24,7 @@ A warm, fire-themed [Neovim](https://github.com/neovim/neovim) theme written in
 - Supports all major plugins.
 - Provides [TokyoFire](https://github.com/folke/tokyonight.nvim)
   [extras](#-extras) for numerous other applications.
+- Two styles: `fire` (default) and `whitefire` (brighter text).
 
 <details>
 <summary>🎨 Supported Plugins</summary>
@@ -183,8 +192,9 @@ vim.cmd[[colorscheme tokyonight]]
 ```vim
 colorscheme tokyonight
 
-" Or directly use the fire style:
+" Or choose a specific style:
 colorscheme tokyonight-fire
+colorscheme tokyonight-whitefire
 ```
 
 Some plugins need extra configuration to work with **TokyoFire**.
@@ -230,8 +240,9 @@ let g:lightline = {'colorscheme': 'tokyonight'}
 > [!IMPORTANT]
 > Set the configuration **BEFORE** loading the color scheme with `colorscheme tokyonight`.
 
-[TokyoFire](https://github.com/folke/tokyonight.nvim) uses the default options,
-unless `setup` is explicitly called.
+[TokyoFire](https://github.com/folke/tokyonight.nvim) comes in two styles:
+- `fire` (default) — warm dark theme
+- `whitefire` — same dark background with brighter text colors
 
 <details>
   <summary>Default Options</summary>
@@ -401,6 +412,17 @@ local util = require("tokyonight.util")
 aplugin.background = colors.bg_dark
 aplugin.my_error = util.lighten(colors.red1, 0.3) -- number between 0 and 1. 0 results in white, 1 results in red1
 ```
+
+## 📄 License & Attribution
+
+This project is licensed under the [Apache License 2.0](LICENSE).
+
+This is a derivative work of **[tokyonight.nvim](https://github.com/folke/tokyonight.nvim)**
+by [Folke Lemaitre](https://github.com/folke), which is also licensed under
+[Apache License 2.0](https://github.com/folke/tokyonight.nvim/blob/main/LICENSE).
+
+Original theme inspiration from
+[Visual Studio Code TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme).
 
 ## 🔥 Contributing
 
