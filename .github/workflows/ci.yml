@@ -20,12 +20,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: leafo/gh-actions-lua@v10
-        with:
-          luaVersion: "luajit-2.1.0-beta3"
-      - uses: leafo/gh-actions-luarocks@v4
-      - run: luarocks install luassert
       - uses: rhysd/action-setup-vim@v1
         with:
           neovim: true
+      - run: sudo apt-get update && sudo apt-get install -y luarocks
+      - run: luarocks install luassert
       - run: ./scripts/test
