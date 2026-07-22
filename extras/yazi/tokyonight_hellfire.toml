@@ -2,7 +2,7 @@
 # NOTE: can be combined with tmTheme (sublime colorshceme file) for preview code highlight
 # syntect_theme = "path/to/tmTheme"
 
-cwd = { fg = "#cc9988", italic = true }
+cwd = { fg = "#eebb99", italic = true }
 
 # Hovered
 hovered         = { bg = "#331a12" }
@@ -43,13 +43,13 @@ unset_main  = { fg = "#160c08", bg = "#ee3333", bold = true }
 unset_alt   = { fg = "#ee3333", bg = "#331a12" }
 
 [status]
-overall   = { fg = "#ffeedd", bg = "#150b07" }
+overall   = { fg = "#fff0e5", bg = "#150b07" }
 sep_left  = { open = "", close = "" }
 sep_right = { open = "", close = "" }
 
 # Progress
-progress_label  = { fg = "#ffeedd", bold = true }
-progress_normal = { fg = "#d4764e", bg = "#331a12" }
+progress_label  = { fg = "#fff0e5", bold = true }
+progress_normal = { fg = "#e88855", bg = "#331a12" }
 progress_error  = { fg = "#dd3333", bg = "#331a12" }
 
 # Permissions
@@ -61,21 +61,21 @@ perm_sep   = { fg = "#4a2218" }
 
 [pick]
 border   = { fg = "#d28b61" }
-active   = { fg = "#ffeedd",  bg = "#663825" }
-inactive = { fg = "#ffeedd" }
+active   = { fg = "#fff0e5",  bg = "#6e3f28" }
+inactive = { fg = "#fff0e5" }
 
 # Input
 [input]
 border   = { fg = "#ff8833" }
 title    = { fg = "#ff8833" }
 value    = { fg = "#ee3333" }
-selected = { bg = "#663825" }
+selected = { bg = "#6e3f28" }
 
 # Completion
 [cmp]
 border   = { fg = "#ff8833" }
-active   = { fg = "#ffeedd", bg = "#2e1810" }
-inactive = { fg = "#ffeedd" }
+active   = { fg = "#fff0e5", bg = "#2e1810" }
+inactive = { fg = "#fff0e5" }
 
 icon_file    = ""
 icon_folder  = ""
@@ -85,7 +85,7 @@ icon_command = ""
 [tasks]
 border  = { fg = "#d28b61" }
 title   = { fg = "#d28b61" }
-hovered = { fg = "#ffeedd", bg = "#663825" }
+hovered = { fg = "#fff0e5", bg = "#6e3f28" }
 
 # Which
 [which]
@@ -95,7 +95,7 @@ cand            = { fg = "#ff9966" }
 rest            = { fg = "#ffeedd" }
 desc            = { fg = "#ee3333" }
 separator       = " ➜ "
-separator_style = { fg = "#996655" }
+separator_style = { fg = "#cc7755" }
 
 # Confirm
 [confirm]
@@ -103,7 +103,7 @@ border  = { fg = "#ff8833" }
 title   = { fg = "#d28b61" }
 content = {}
 list    = {}
-btn_yes = { bg = "#663825" }
+btn_yes = { bg = "#6e3f28" }
 btn_no  = {}
 btn_labels = [ "  [Y]es  ", "  (N)o  " ]
 
@@ -128,7 +128,7 @@ on      = { fg = "#ff7744" }
 run     = { fg = "#ee3333" }
 desc    = { fg = "#ff9966" }
 hovered = { bg = "#331a12" }
-footer  = { fg = "#ffeedd", bg = "#1c0f0a" }
+footer  = { fg = "#fff0e5", bg = "#1c0f0a" }
 
 [filetype]
 
@@ -155,6 +155,6 @@ rules = [
 
 	# Fallback
 	{ name = "*/", fg = "#ffeedd" },
-	{ name = "*", fg = "#ffeedd" }
+	{ name = "*", fg = "#fff0e5" }
 ]
     

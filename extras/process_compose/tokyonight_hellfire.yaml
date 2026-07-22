@@ -1,25 +1,25 @@
 style:
   name: tokyonight_hellfire
   body:
-    fgColor: '#ffeedd'
+    fgColor: '#fff0e5'
     bgColor: '#150b07'
-    secondaryTextColor: '#cc9988'
+    secondaryTextColor: '#eebb99'
     tertiaryTextColor: '${fg_visual}'
     borderColor: '#331a12'
   stat_table:
     keyFgColor: '#ffbb33'
-    valueFgColor: '#ffeedd'
+    valueFgColor: '#fff0e5'
     logoColor: '#ffbb33'
   proc_table:
     fgColor: '#ffeedd'
     fgWarning: '#ffbb33'
-    fgPending: '#664433'
+    fgPending: '#885544'
     fgCompleted: '#ff7744'
     fgError: '#dd3333'
-    headerFgColor: '#ffeedd'
+    headerFgColor: '#fff0e5'
   help:
     fgColor: '#ffaa77'
-    keyColor: '#ffeedd'
+    keyColor: '#fff0e5'
     hlColor: '#ff7744'
     categoryFgColor: '#ffcc44'
   dialog:

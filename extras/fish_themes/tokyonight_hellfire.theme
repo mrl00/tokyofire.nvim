@@ -1,25 +1,25 @@
 # TokyoNight
 
 # Syntax Highlighting Colors
-fish_color_normal ffeedd
+fish_color_normal fff0e5
 fish_color_command ff9966
 fish_color_keyword ee3333
 fish_color_quote ffbb33
-fish_color_redirection ffeedd
+fish_color_redirection fff0e5
 fish_color_end ff7733
 fish_color_option ee3333
 fish_color_error ff4444
 fish_color_param ee3333
-fish_color_comment 996655
-fish_color_selection --background=663825
-fish_color_search_match --background=663825
+fish_color_comment cc7755
+fish_color_selection --background=6e3f28
+fish_color_search_match --background=6e3f28
 fish_color_operator ff7744
 fish_color_escape ee3333
-fish_color_autosuggestion 996655
+fish_color_autosuggestion cc7755
 
 # Completion Pager Colors
-fish_pager_color_progress 996655
+fish_pager_color_progress cc7755
 fish_pager_color_prefix ff9966
-fish_pager_color_completion ffeedd
-fish_pager_color_description 996655
-fish_pager_color_selected_background --background=663825
+fish_pager_color_completion fff0e5
+fish_pager_color_description cc7755
+fish_pager_color_selected_background --background=6e3f28

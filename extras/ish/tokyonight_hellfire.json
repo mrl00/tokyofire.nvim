@@ -11,7 +11,7 @@
       "#ffeedd",
       "#ee3333",
       "#ff9966",
-      "#cc9988",
+      "#eebb99",
       "#4a2218",
       "#ff6565",
       "#ff8e6e",
@@ -19,10 +19,10 @@
       "#ffffff",
       "#ff4343",
       "#ffad8b",
-      "#ffeedd",
+      "#fff0e5",
     ],
-    "cursorColor": "#ffeedd",
-    "foregroundColor": "#ffeedd"
+    "cursorColor": "#fff0e5",
+    "foregroundColor": "#fff0e5"
   }
 }
 

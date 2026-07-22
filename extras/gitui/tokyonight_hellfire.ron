@@ -1,11 +1,11 @@
 (
   selected_tab: Some("#ee3333"),
-  command_fg: Some("#996655"),
+  command_fg: Some("#cc7755"),
   selection_bg: Some("#331a12"),
   selection_fg: Some("#ff9966"),
   cmdbar_bg: Some("#1c0f0a"),
   cmdbar_extra_lines_bg: Some("#1c0f0a"),
-  disabled_fg: Some("#996655"),
+  disabled_fg: Some("#cc7755"),
   diff_line_add: Some("#ff7744"),
   diff_line_delete: Some("#ff4444"),
   diff_file_added: Some("#ff8833"),
@@ -17,7 +17,7 @@
   commit_author: Some("#ff7744"),
   danger_fg: Some("#ff4444"),
   push_gauge_bg: Some("#1c0f0a"),
-  push_gauge_fg: Some("#ffeedd"),
+  push_gauge_fg: Some("#fff0e5"),
   tag_fg: Some("#dd2222"),
   branch_fg: Some("#ffbb33")
 )

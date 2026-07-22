@@ -4,7 +4,7 @@
 
 themes {
     tokyonight_hellfire {
-        fg "#ffeedd"
+        fg "#fff0e5"
         bg "#331a12"
         // Black should match the terminal background color
         // This ensures the top and bottom bars are transparent
@@ -15,7 +15,7 @@ themes {
         blue "#ffeedd"
         magenta "#ee3333"
         cyan "#ff9966"
-        white "#cc9988"
+        white "#eebb99"
         orange "#ff7733"
     }
 }

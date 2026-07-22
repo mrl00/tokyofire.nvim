@@ -2,14 +2,14 @@
 Color=28,15,10
 
 [BackgroundIntense]
-Color=102,56,37
+Color=110,63,40
 
 [Foreground]
-Color=255,238,221
+Color=255,240,229
 
 [ForegroundIntense]
 Bold=true
-Color=255,238,221
+Color=255,240,229
 
 [Color0]
 Color=#160c08
@@ -54,10 +54,10 @@ Color=#ff9966
 Color=#ffad8b
 
 [Color7]
-Color=#cc9988
+Color=#eebb99
 
 [Color7Intense]
-Color=#ffeedd
+Color=#fff0e5
 
 [General]
 Description=Tokyo Night Hell Fire

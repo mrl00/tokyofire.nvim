@@ -27,9 +27,9 @@ if-shell '[ "$(tmux show-option -gqv "clock-mode-style")" == "24" ]' {
   set -g status-right "#[fg=#150b07,bg=#150b07,nobold,nounderscore,noitalics]#[fg=#ffeedd,bg=#150b07] #{prefix_highlight} #[fg=#331a12,bg=#150b07,nobold,nounderscore,noitalics]#[fg=#ffeedd,bg=#331a12] %Y-%m-%d  %H:%M #[fg=#ffeedd,bg=#331a12,nobold,nounderscore,noitalics]#[fg=#160c08,bg=#ffeedd,bold] #h "
 }
 
-setw -g window-status-activity-style "underscore,fg=#cc9988,bg=#150b07"
+setw -g window-status-activity-style "underscore,fg=#eebb99,bg=#150b07"
 setw -g window-status-separator ""
-setw -g window-status-style "NONE,fg=#cc9988,bg=#150b07"
+setw -g window-status-style "NONE,fg=#eebb99,bg=#150b07"
 setw -g window-status-format "#[fg=#150b07,bg=#150b07,nobold,nounderscore,noitalics]#[default] #I  #W #F #[fg=#150b07,bg=#150b07,nobold,nounderscore,noitalics]"
 setw -g window-status-current-format "#[fg=#150b07,bg=#331a12,nobold,nounderscore,noitalics]#[fg=#ffeedd,bg=#331a12,bold] #I  #W #F #[fg=#331a12,bg=#150b07,nobold,nounderscore,noitalics]"
 

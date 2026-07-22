@@ -2,7 +2,7 @@
     "name": "Tokyo Night Hell Fire",
     "comment": "",
     "use-theme-colors": false,
-    "foreground-color": "#ffeedd",
+    "foreground-color": "#fff0e5",
     "background-color": "#1c0f0a",
     "palette": [
         "#160c08",
@@ -12,7 +12,7 @@
         "#ffeedd",
         "#ee3333",
         "#ff9966",
-        "#cc9988",
+        "#eebb99",
         "#4a2218",
         "#ff4444",
         "#ff7744",
@@ -20,7 +20,7 @@
         "#ffeedd",
         "#ee3333",
         "#ff9966",
-        "#ffeedd"
+        "#fff0e5"
     ]
 }
   

@@ -1,9 +1,9 @@
 [Scheme]
 Name="tokyonight_hellfire"
 ColorBackground=#1c0f0a
-ColorForeground=#ffeedd
+ColorForeground=#fff0e5
 
-ColorSelectionBackground=#663825
-ColorSelection=#ffeedd
+ColorSelectionBackground=#6e3f28
+ColorSelection=#fff0e5
 
-ColorPalette=#160c08;#ff4444;#ff7744;#ffbb33;#ffeedd;#ee3333;#ff9966;#cc9988;#4a2218;#ff4444;#ff7744;#ffbb33;#ffeedd;#ee3333;#ff9966;#ffeedd
+ColorPalette=#160c08;#ff4444;#ff7744;#ffbb33;#ffeedd;#ee3333;#ff9966;#eebb99;#4a2218;#ff4444;#ff7744;#ffbb33;#ffeedd;#ee3333;#ff9966;#fff0e5

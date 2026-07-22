@@ -2,14 +2,14 @@
   "name": "Tokyo Night Hell Fire",
   "type": "custom",
   "text": {
-    "primary": "#ffeedd",
-    "secondary": "#cc9988",
-    "response": "#ffeedd"
+    "primary": "#fff0e5",
+    "secondary": "#eebb99",
+    "response": "#fff0e5"
   },
   "background": {
     "primary": "#1c0f0a",
     "diff": {
-      "added": "#4a291b",
+      "added": "#4f2d1d",
       "removed": "#4c1814"
     }
   },
@@ -18,12 +18,12 @@
     "focused": "#ffeedd"
   },
   "ui": {
-    "comment": "#996655",
-    "symbol": "#cc9988",
+    "comment": "#cc7755",
+    "symbol": "#eebb99",
     "gradient": ["#ffeedd", "#ee3333", "#ff9966"]
   },
   "Background": "#1c0f0a",
-  "Foreground": "#ffeedd",
+  "Foreground": "#fff0e5",
   "LightBlue": "#ffaa77",
   "AccentBlue": "#ee3333",
   "AccentPurple": "#ee3333",
@@ -31,10 +31,10 @@
   "AccentGreen": "#ff7733",
   "AccentYellow": "#ff7744",
   "AccentRed": "#ff4444",
-  "DiffAdded": "#4a291b",
+  "DiffAdded": "#4f2d1d",
   "DiffRemoved": "#4c1814",
-  "Comment": "#996655",
-  "Gray": "#cc9988",
+  "Comment": "#cc7755",
+  "Gray": "#eebb99",
   "DarkGray": "#150b07",
   "GradientColors": ["#ffeedd", "#ee3333", "#ff9966"]
 }

@@ -2,10 +2,10 @@
 # By: Folke Lemaitre
 
 theme[main_bg]="#1c0f0a"
-theme[main_fg]="#ffeedd"
+theme[main_fg]="#fff0e5"
 
 # Title color for boxes
-theme[title]="#ffeedd"
+theme[title]="#fff0e5"
 
 # Highlight color for keyboard shortcuts
 theme[hi_fg]="#ff7733"

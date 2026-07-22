@@ -6,13 +6,13 @@
 
 [:<PROFILE_UUID>]
 background-color='rgb(28, 15, 10)'
-cursor-background-color='rgb(255, 238, 221)'
+cursor-background-color='rgb(255, 240, 229)'
 cursor-colors-set=true
 cursor-foreground-color='rgb(28, 15, 10)'
-foreground-color='rgb(255, 238, 221)'
-highlight-background-color='rgb(255, 238, 221)'
+foreground-color='rgb(255, 240, 229)'
+highlight-background-color='rgb(255, 240, 229)'
 highlight-colors-set=true
 highlight-foreground-color='rgb(28, 15, 10)'
-palette=['rgb(74, 34, 24)', 'rgb(255, 68, 68)', 'rgb(255, 119, 68)', 'rgb(255, 187, 51)', 'rgb(255, 238, 221)', 'rgb(238, 51, 51)', 'rgb(255, 153, 102)', 'rgb(255, 238, 221)', 'rgb(74, 34, 24)', 'rgb(255, 68, 68)', 'rgb(255, 119, 68)', 'rgb(255, 187, 51)', 'rgb(255, 238, 221)', 'rgb(238, 51, 51)', 'rgb(255, 153, 102)', 'rgb(255, 238, 221)']
+palette=['rgb(74, 34, 24)', 'rgb(255, 68, 68)', 'rgb(255, 119, 68)', 'rgb(255, 187, 51)', 'rgb(255, 238, 221)', 'rgb(238, 51, 51)', 'rgb(255, 153, 102)', 'rgb(255, 240, 229)', 'rgb(74, 34, 24)', 'rgb(255, 68, 68)', 'rgb(255, 119, 68)', 'rgb(255, 187, 51)', 'rgb(255, 238, 221)', 'rgb(238, 51, 51)', 'rgb(255, 153, 102)', 'rgb(255, 240, 229)']
 use-theme-colors=false
 visible-name='Tokyo Night Hell Fire'
