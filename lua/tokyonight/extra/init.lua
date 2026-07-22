@@ -62,6 +62,7 @@ function M.setup()
   -- map of style to style name
   local styles = {
     fire = " Fire",
+    whitefire = " White Fire",
   }
 
   ---@type string[]
