@@ -1,0 +1,36 @@
+style:
+  name: tokyonight_fire
+  body:
+    fgColor: '#fbeee6'
+    bgColor: '#141110'
+    secondaryTextColor: '#a08a85'
+    tertiaryTextColor: '${fg_visual}'
+    borderColor: '#2c2523'
+  stat_table:
+    keyFgColor: '#fde3a7'
+    valueFgColor: '#fbeee6'
+    logoColor: '#fde3a7'
+  proc_table:
+    fgColor: '#fbeee6'
+    fgWarning: '#fde3a7'
+    fgPending: '#5c4f4b'
+    fgCompleted: '#f1a98c'
+    fgError: '#e07070'
+    headerFgColor: '#fbeee6'
+  help:
+    fgColor: '#fbc5b0'
+    keyColor: '#fbeee6'
+    hlColor: '#f1a98c'
+    categoryFgColor: '#fde3a7'
+  dialog:
+    fgColor: '#fbc5b0'
+    bgColor: '#151211'
+    contrastBgColor: '#1a1615'
+    attentionBgColor: '#e07070'
+    buttonFgColor: '#151211'
+    buttonBgColor: '#2c2523'
+    buttonFocusFgColor: '#151211'
+    buttonFocusBgColor: '#fbeee6'
+    labelFgColor: '#fde3a7'
+    fieldFgColor: '#151211'
+    fieldBgColor: '#3d2e2a'

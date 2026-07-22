@@ -1,0 +1,40 @@
+{
+  "name": "Tokyo Night Fire",
+  "type": "custom",
+  "text": {
+    "primary": "#fbeee6",
+    "secondary": "#a08a85",
+    "response": "#fbeee6"
+  },
+  "background": {
+    "primary": "#1a1615",
+    "diff": {
+      "added": "#453732",
+      "removed": "#4c2d2c"
+    }
+  },
+  "border": {
+    "default": "#2c2523",
+    "focused": "#fbeee6"
+  },
+  "ui": {
+    "comment": "#7f6c68",
+    "symbol": "#a08a85",
+    "gradient": ["#fbeee6", "#ff9ebb", "#fbc5b0"]
+  },
+  "Background": "#1a1615",
+  "Foreground": "#fbeee6",
+  "LightBlue": "#fbc5b0",
+  "AccentBlue": "#ff9ebb",
+  "AccentPurple": "#ff9ebb",
+  "AccentCyan": "#fbc5b0",
+  "AccentGreen": "#f5b041",
+  "AccentYellow": "#f1a98c",
+  "AccentRed": "#ff9994",
+  "DiffAdded": "#453732",
+  "DiffRemoved": "#4c2d2c",
+  "Comment": "#7f6c68",
+  "Gray": "#a08a85",
+  "DarkGray": "#141110",
+  "GradientColors": ["#fbeee6", "#ff9ebb", "#fbc5b0"]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Tokyo Night White Fire",
+  "type": "custom",
+  "text": {
+    "primary": "#fff8f5",
+    "secondary": "#d0c0ba",
+    "response": "#fff8f5"
+  },
+  "background": {
+    "primary": "#1a1615",
+    "diff": {
+      "added": "#453732",
+      "removed": "#4c2d2c"
+    }
+  },
+  "border": {
+    "default": "#2c2523",
+    "focused": "#fbeee6"
+  },
+  "ui": {
+    "comment": "#a0908a",
+    "symbol": "#d0c0ba",
+    "gradient": ["#fbeee6", "#ff9ebb", "#fbc5b0"]
+  },
+  "Background": "#1a1615",
+  "Foreground": "#fff8f5",
+  "LightBlue": "#fbc5b0",
+  "AccentBlue": "#ff9ebb",
+  "AccentPurple": "#ff9ebb",
+  "AccentCyan": "#fbc5b0",
+  "AccentGreen": "#f5b041",
+  "AccentYellow": "#f1a98c",
+  "AccentRed": "#ff9994",
+  "DiffAdded": "#453732",
+  "DiffRemoved": "#4c2d2c",
+  "Comment": "#a0908a",
+  "Gray": "#d0c0ba",
+  "DarkGray": "#141110",
+  "GradientColors": ["#fbeee6", "#ff9ebb", "#fbc5b0"]
+}

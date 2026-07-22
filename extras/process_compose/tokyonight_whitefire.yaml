@@ -1,0 +1,36 @@
+style:
+  name: tokyonight_whitefire
+  body:
+    fgColor: '#fff8f5'
+    bgColor: '#141110'
+    secondaryTextColor: '#d0c0ba'
+    tertiaryTextColor: '${fg_visual}'
+    borderColor: '#4a3d39'
+  stat_table:
+    keyFgColor: '#fde3a7'
+    valueFgColor: '#fff8f5'
+    logoColor: '#fde3a7'
+  proc_table:
+    fgColor: '#fbeee6'
+    fgWarning: '#fde3a7'
+    fgPending: '#5c4f4b'
+    fgCompleted: '#f1a98c'
+    fgError: '#e07070'
+    headerFgColor: '#fff8f5'
+  help:
+    fgColor: '#fbc5b0'
+    keyColor: '#fff8f5'
+    hlColor: '#f1a98c'
+    categoryFgColor: '#fde3a7'
+  dialog:
+    fgColor: '#fbc5b0'
+    bgColor: '#151211'
+    contrastBgColor: '#1a1615'
+    attentionBgColor: '#e07070'
+    buttonFgColor: '#151211'
+    buttonBgColor: '#2c2523'
+    buttonFocusFgColor: '#151211'
+    buttonFocusBgColor: '#fbeee6'
+    labelFgColor: '#fde3a7'
+    fieldFgColor: '#151211'
+    fieldBgColor: '#3d2e2a'

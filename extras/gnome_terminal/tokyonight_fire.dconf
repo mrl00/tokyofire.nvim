@@ -1,0 +1,18 @@
+# Import this theme as follows:
+# 1. Create a new profile for GNOME Terminal
+# 2. Copy the UUID of the new profile (bottom right corner of the preferences window)
+# 3. Replace <PROFILE_UUID> below with the copied UUID
+# 4. Execute `dconf load /org/gnome/terminal/legacy/profiles:/ < tokyonight_fire.dconf`
+
+[:<PROFILE_UUID>]
+background-color='rgb(26, 22, 21)'
+cursor-background-color='rgb(251, 238, 230)'
+cursor-colors-set=true
+cursor-foreground-color='rgb(26, 22, 21)'
+foreground-color='rgb(251, 238, 230)'
+highlight-background-color='rgb(251, 238, 230)'
+highlight-colors-set=true
+highlight-foreground-color='rgb(26, 22, 21)'
+palette=['rgb(61, 46, 42)', 'rgb(255, 153, 148)', 'rgb(241, 169, 140)', 'rgb(253, 227, 167)', 'rgb(251, 238, 230)', 'rgb(255, 158, 187)', 'rgb(251, 197, 176)', 'rgb(251, 238, 230)', 'rgb(61, 46, 42)', 'rgb(255, 153, 148)', 'rgb(241, 169, 140)', 'rgb(253, 227, 167)', 'rgb(251, 238, 230)', 'rgb(255, 158, 187)', 'rgb(251, 197, 176)', 'rgb(251, 238, 230)']
+use-theme-colors=false
+visible-name='Tokyo Night Fire'

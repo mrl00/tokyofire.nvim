@@ -1,0 +1,28 @@
+{
+  "name": "Tokyo Night White Fire",
+  "version": 1,
+  "shared": {
+    "backgroundColor": "#1a1615",
+    "colorPaletteOverrides": [
+      "#151211",
+      "#ff9994",
+      "#f1a98c",
+      "#fde3a7",
+      "#fbeee6",
+      "#ff9ebb",
+      "#fbc5b0",
+      "#d0c0ba",
+      "#3d2e2a",
+      "#ffaeaa",
+      "#fdb89d",
+      "#fff3da",
+      "#fffffe",
+      "#ffb3c9",
+      "#ffd6c8",
+      "#fff8f5",
+    ],
+    "cursorColor": "#fff8f5",
+    "foregroundColor": "#fff8f5"
+  }
+}
+

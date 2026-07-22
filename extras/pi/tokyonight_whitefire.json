@@ -1,0 +1,63 @@
+{
+  "$schema": "https://raw.githubusercontent.com/badlogic/pi-mono/main/packages/coding-agent/src/modes/interactive/theme/theme-schema.json",
+  "name": "Tokyo Night White Fire",
+  "colors": {
+    "accent": "#fbeee6",
+    "border": "#cea291",
+    "borderAccent": "#fbc5b0",
+    "borderMuted": "#151211",
+    "success": "#f5b041",
+    "error": "#e07070",
+    "warning": "#fde3a7",
+    "muted": "#d0c0ba",
+    "dim": "#8a7a75",
+    "text": "",
+    "thinkingText": "#a0908a",
+
+    "selectedBg": "#5e4b44",
+    "userMessageBg": "#141110",
+    "userMessageText": "",
+    "customMessageBg": "#141110",
+    "customMessageText": "",
+    "customMessageLabel": "#ff9ebb",
+    "toolPendingBg": "#2c2523",
+    "toolSuccessBg": "#2c2523",
+    "toolErrorBg": "#241b1a",
+    "toolTitle": "",
+    "toolOutput": "#d0c0ba",
+
+    "mdHeading": "#fbeee6",
+    "mdLink": "#f1a98c",
+    "mdLinkUrl": "#a0908a",
+    "mdCode": "#fbeee6",
+    "mdCodeBlock": "#141110",
+    "mdCodeBlockBorder": "#a0908a",
+    "mdQuote": "#a0908a",
+    "mdQuoteBorder": "#a0908a",
+    "mdHr": "#f5b041",
+    "mdListBullet": "#f5b041",
+
+    "toolDiffAdded": "#453732",
+    "toolDiffRemoved": "#4c2d2c",
+    "toolDiffContext": "#3d2e2a",
+
+    "syntaxComment": "#a0908a",
+    "syntaxKeyword": "#ff9ebb",
+    "syntaxFunction": "#fbeee6",
+    "syntaxVariable": "#fff8f5",
+    "syntaxString": "#f1a98c",
+    "syntaxNumber": "#f5b041",
+    "syntaxType": "#fbc5b0",
+    "syntaxOperator": "#fde3a7",
+    "syntaxPunctuation": "#fde3a7",
+
+    "thinkingOff": "#5c4f4b",
+    "thinkingMinimal": "#8a7a75",
+    "thinkingLow": "#3d2e2a",
+    "thinkingMedium": "#fbeee6",
+    "thinkingHigh": "#ff9ebb",
+    "thinkingXhigh": "#ff9ebb",
+
+    "bashMode": "#f5b041"
+  }
+}

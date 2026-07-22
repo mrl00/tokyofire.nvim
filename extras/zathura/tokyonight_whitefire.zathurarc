@@ -1,0 +1,38 @@
+# Tokyonight color theme for Zathura
+# Swaps Foreground for Background to get a light version if the user prefers
+#
+# Tokyonight color theme
+#
+set notification-error-bg "#ff9994"
+set notification-error-fg "#fff8f5"
+set notification-warning-bg "#fde3a7"
+set notification-warning-fg "#3d2e2a"
+set notification-bg "#1a1615"
+set notification-fg "#fff8f5"
+set completion-bg "#1a1615"
+set completion-fg "#d0c0ba"
+set completion-group-bg "#1a1615"
+set completion-group-fg "#d0c0ba"
+set completion-highlight-bg "#3d2e2a"
+set completion-highlight-fg "#fff8f5"
+set index-bg "#1a1615"
+set index-fg "#fff8f5"
+set index-active-bg "#3d2e2a"
+set index-active-fg "#fff8f5"
+set inputbar-bg "#1a1615"
+set inputbar-fg "#fff8f5"
+set statusbar-bg "#1a1615"
+set statusbar-fg "#fff8f5"
+set highlight-color "#fde3a7"
+set highlight-active-color "#f1a98c"
+set default-bg "#1a1615"
+set default-fg "#fff8f5"
+set render-loading true
+set render-loading-fg "#1a1615"
+set render-loading-bg "#fff8f5"
+#
+# Recolor mode settings
+# <C-r> to switch modes
+#
+set recolor-lightcolor "#1a1615"
+set recolor-darkcolor "#fff8f5"

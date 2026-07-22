@@ -1,6 +1,6 @@
-# Contributing to Tokyo Night
+# Contributing to Tokyo Fire
 
-Thank you for your interest in contributing to Tokyo Night! Pull requests are welcome.
+Thank you for your interest in contributing to Tokyo Fire! Pull requests are welcome.
 
 ## Adding Plugin Support
 
@@ -106,8 +106,7 @@ Each highlight group can have these attributes:
    - Run the test suite: `./scripts/test`
    - Install the plugin in your Neovim config
    - Load the tokyonight theme
-   - Verify the highlights look good in all 6 styles (storm, moon, night, day, fire, softpaper)
-   - Test with both light and dark backgrounds
+    - Verify the highlights look good in both styles (fire and whitefire)
 
 5. **Follow the style guide**:
    - Use `-- stylua: ignore` before the return table to prevent formatting
@@ -126,16 +125,12 @@ Each highlight group can have these attributes:
 
 ### Testing Different Styles
 
-Make sure to test your highlights with all theme styles:
+Make sure to test your highlights with both theme styles:
 
 ```lua
 -- In your Neovim config
-vim.cmd("colorscheme tokyonight-storm")
-vim.cmd("colorscheme tokyonight-moon")
-vim.cmd("colorscheme tokyonight-night")
-vim.cmd("colorscheme tokyonight-day")
 vim.cmd("colorscheme tokyonight-fire")
-vim.cmd("colorscheme tokyonight-softpaper")
+vim.cmd("colorscheme tokyonight-whitefire")
 ```
 
 ### Example: Adding a Simple Plugin
@@ -177,7 +172,7 @@ That's it! The plugin will now automatically be themed when loaded.
 
 ## Adding Extras
 
-For the [extras](extras/), we use a simple template system that can be used to generate themes for the different styles (storm, moon, night, day, fire, and softpaper).
+For the [extras](extras/), we use a simple template system that can be used to generate themes for the different styles (fire and whitefire).
 
 ### How Extras Work
 
@@ -187,7 +182,7 @@ Each extra is a Lua module that:
 2. Returns a string with the theme configuration for the target application
 3. Uses `util.template()` to substitute color variables into the theme template
 
-The build system automatically generates theme files for all six styles (storm, moon, night, day, fire, softpaper) from your template.
+The build system automatically generates theme files for both styles (fire, whitefire) from your template.
 
 ### Extra Template Structure
 
@@ -263,12 +258,12 @@ Before submitting a PR:
 1. Run the test suite: `./scripts/test`
 2. Run the build script and verify it generates valid theme files
 3. Test the generated themes in the target application
-4. Verify all six styles (storm, moon, night, day, fire, softpaper) work correctly
+4. Verify both styles (fire, whitefire) work correctly
 5. Check that running the build multiple times produces identical output (no random/time-based values)
 
 ### Common Pitfalls
 
-- **Generating multiple variants**: Don't loop through `colors.rainbow` or create blue/red/green variants. Each extra generates exactly 6 files (one per style).
+- **Generating multiple variants**: Don't loop through `colors.rainbow` or create blue/red/green variants. Each extra generates exactly 2 files (one per style).
 - **Non-deterministic values**: Using `os.clock()`, `math.random()`, or timestamps causes unnecessary file changes on every build.
 - **Hardcoded colors**: Use template variables instead of hardcoding hex values.
 - **Not using util.template()**: Always use `util.template()` for string substitution.

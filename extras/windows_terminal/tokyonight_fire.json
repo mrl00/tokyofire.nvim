@@ -1,0 +1,25 @@
+# Add the following object to your Windows Terminal configuration
+# https://learn.microsoft.com/en-us/windows/terminal/customize-settings/color-schemes#creating-your-own-color-scheme
+{
+    "background": "#1a1615",
+    "black": "#151211",
+    "blue": "#fbeee6",
+    "brightBlack": "#3d2e2a",
+    "brightBlue": "#fbeee6",
+    "brightCyan": "#fbc5b0",
+    "brightGreen": "#f1a98c",
+    "brightPurple": "#ff9ebb",
+    "brightRed": "#ff9994",
+    "brightWhite": "#fbeee6",
+    "brightYellow": "#fde3a7",
+    "cursorColor": "#fbeee6",
+    "cyan": "#fbc5b0",
+    "foreground": "#fbeee6",
+    "green": "#f1a98c",
+    "name": "Tokyo Night Fire",
+    "purple": "#ff9ebb",
+    "red": "#ff9994",
+    "selectionBackground": "#5e4b44",
+    "white": "#a08a85",
+    "yellow": "#fde3a7"
+}
