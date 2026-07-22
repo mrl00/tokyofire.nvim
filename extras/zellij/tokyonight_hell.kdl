@@ -3,7 +3,7 @@
 // https://zellij.dev/documentation/themes#getting-zellij-to-pick-up-the-theme
 
 themes {
-    tokyonight_hellfire {
+    tokyonight_hell {
         fg "#fff0e5"
         bg "#331a12"
         // Black should match the terminal background color

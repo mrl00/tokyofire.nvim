@@ -2,7 +2,7 @@ assistant-output-color: "#fff0e5"
 
 # see the aider extra README for more information about setting the `code-theme`
 # https://github.com/folke/tokyonight.nvim/blob/extras/aider/README.md
-# code-theme: tokyonight-hellfire
+# code-theme: tokyonight-hell
 
 completion-menu-color: "#fff0e5"
 completion-menu-bg-color: "#150b07"

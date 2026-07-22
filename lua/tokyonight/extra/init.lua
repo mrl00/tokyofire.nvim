@@ -63,7 +63,7 @@ function M.setup()
   local styles = {
     fire = " Fire",
     whitefire = " White Fire",
-    hellfire = " Hell Fire",
+    hell = " Hell",
   }
 
   ---@type string[]

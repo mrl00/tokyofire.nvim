@@ -1,6 +1,6 @@
 local colors = {
-  _name = "tokyonight_hellfire",
-  _style = "hellfire",
+  _name = "tokyonight_hell",
+  _style = "hell",
   bg = "#1c0f0a",
   bg_dark = "#150b07",
   bg_dark1 = "#0f0704",
