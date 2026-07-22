@@ -3,7 +3,6 @@ local M = {}
 M.bg = "#000000"
 M.fg = "#ffffff"
 
-
 local uv = vim.uv or vim.loop
 
 ---@param c  string
