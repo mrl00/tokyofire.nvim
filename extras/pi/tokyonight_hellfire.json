@@ -19,7 +19,7 @@
     "userMessageText": "",
     "customMessageBg": "#150b07",
     "customMessageText": "",
-    "customMessageLabel": "#ff5588",
+    "customMessageLabel": "#ee3333",
     "toolPendingBg": "#331a12",
     "toolSuccessBg": "#331a12",
     "toolErrorBg": "#26110c",
@@ -42,7 +42,7 @@
     "toolDiffContext": "#4a2218",
 
     "syntaxComment": "#996655",
-    "syntaxKeyword": "#ff5588",
+    "syntaxKeyword": "#ee3333",
     "syntaxFunction": "#ffeedd",
     "syntaxVariable": "#ffeedd",
     "syntaxString": "#ff7744",
@@ -55,8 +55,8 @@
     "thinkingMinimal": "#997766",
     "thinkingLow": "#4a2218",
     "thinkingMedium": "#ffeedd",
-    "thinkingHigh": "#ff5588",
-    "thinkingXhigh": "#ff5588",
+    "thinkingHigh": "#ee3333",
+    "thinkingXhigh": "#ee3333",
 
     "bashMode": "#ff7733"
   }

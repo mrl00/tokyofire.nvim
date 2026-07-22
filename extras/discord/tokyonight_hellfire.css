@@ -73,9 +73,9 @@
   --status-green-560: #ff7744;
   --white-400: #ffeedd;
   --white-500: #ffeedd;
-  --guild-boosting-pink: #ff5588;
+  --guild-boosting-pink: #ee3333;
   --premium-perk-yellow: #ffbb33;
-  --premium-perk-purple: #ff5588;
+  --premium-perk-purple: #ee3333;
   --premium-perk-dark-blue: #ffeedd;
   --premium-perk-light-blue: #ffaa77;
   --premium-perk-blue: #ffeedd;
@@ -149,8 +149,8 @@
   --background-mentioned: #ffbb3319;
   --background-mentioned-hover: #ffbb3314;
   --background-message-hover: #150b073F;
-  --background-message-automod: #ff55880C;
-  --background-message-automod-hover: #ff558819;
+  --background-message-automod: #ee33330C;
+  --background-message-automod-hover: #ee333319;
   --background-message-highlight: #ffeedd14;
   --background-message-highlight-hover: #ffeedd0F;
   --channels-default: #cc9988;
@@ -172,7 +172,7 @@
   --interactive-active: #ffeedd;
   --search-popout-option-non-text-color: #cc9988;
   --__spoiler-background-color--hidden: #4a2218;
-  --__spoiler-warning-background-color: #ff5588;
+  --__spoiler-warning-background-color: #ee3333;
 }
 
 div[class*="autocomplete_"] {
@@ -211,11 +211,11 @@ rect[mask="url(#svg-mask-status-offline)"] {
   --color-3: #ffbb33;
   --color-4: #ff7744;
   --color-5: #ff8833;
-  --color-6: #ff6699;
+  --color-6: #ee4444;
   --color-7: #ff8833;
   --color-8: #ff9966;
   --color-9: #ffeedd;
-  --color-10: #ff5588;
+  --color-10: #ee3333;
   --color-11: #ffeedd;
   /* ---- HLJS Default -- */
   --hljs-attribute: var(--color-7);

@@ -5,7 +5,7 @@ constant = { fg = "#ff7733" }
 "constant.builtin" = { fg = "#ffaa77" }
 "constant.builtin.boolean" = { fg = "#ff7733" }
 "constant.character" = { fg = "#ff7744" }
-"constant.character.escape" = { fg = "#ff5588" }
+"constant.character.escape" = { fg = "#ee3333" }
 "constant.numeric" = { fg = "#ff7733" }
 "constant.numeric.float" = { fg = "#ff7733" }
 "constant.numeric.integer" = { fg = "#ff7733" }
@@ -26,15 +26,15 @@ function = { fg = "#ffeedd" }
 "function.special" = { fg = "#ff9966" }
 hint = { fg = "#ff7744" }
 info = { fg = "#ff8833" }
-keyword = { fg = "#ff5588", modifiers = ["italic"] }
-"keyword.control" = { fg = "#ff5588" }
-"keyword.control.conditional" = { fg = "#ff5588" }
-"keyword.control.exception" = { fg = "#ff5588" }
-"keyword.control.repeat" = { fg = "#ff5588" }
-"keyword.control.return" = { fg = "#ff5588", modifiers = ["italic"] }
+keyword = { fg = "#ee3333", modifiers = ["italic"] }
+"keyword.control" = { fg = "#ee3333" }
+"keyword.control.conditional" = { fg = "#ee3333" }
+"keyword.control.exception" = { fg = "#ee3333" }
+"keyword.control.repeat" = { fg = "#ee3333" }
+"keyword.control.return" = { fg = "#ee3333", modifiers = ["italic"] }
 "keyword.directive" = { fg = "#ff9966" }
-"keyword.function" = { fg = "#ff5588" }
-"keyword.operator" = { fg = "#ff5588" }
+"keyword.function" = { fg = "#ee3333" }
+"keyword.operator" = { fg = "#ee3333" }
 label = { fg = "#ffeedd" }
 "markup.bold" = { fg = "#ffeedd", modifiers = ["bold"] }
 "markup.heading" = { fg = "#ffeedd", modifiers = ["bold"] }
@@ -55,9 +55,9 @@ namespace = { fg = "#ff9966" }
 operator = { fg = "#ffcc44" }
 special = { fg = "#ffaa77" }
 string = { fg = "#ff7744" }
-"string.regexp" = { fg = "#ff6699" }
+"string.regexp" = { fg = "#ee4444" }
 "string.special" = { fg = "#ffaa77" }
-tag = { fg = "#ff5588" }
+tag = { fg = "#ee3333" }
 type = { fg = "#ffaa77" }
 "type.builtin" = { fg = "#d28b61" }
 "type.enum" = { fg = "#ffaa77" }
@@ -105,7 +105,7 @@ blue0 = "#d4764e"
 blue1 = "#ffaa77"
 blue2 = "#ff8833"
 blue5 = "#ffcc44"
-blue6 = "#ff6699"
+blue6 = "#ee4444"
 blue7 = "#4a2218"
 border = "#160c08"
 border_highlight = "#d28b61"
@@ -132,16 +132,16 @@ green1 = "#ff8833"
 green2 = "#d4764e"
 hint = "#ff7744"
 info = "#ff8833"
-magenta = "#ff5588"
-magenta2 = "#ff3377"
+magenta = "#ee3333"
+magenta2 = "#dd2222"
 orange = "#ff7733"
-purple = "#ff5588"
+purple = "#ee3333"
 rainbow = "#ffeedd"
 "rainbow.2" = "#ffbb33"
 "rainbow.3" = "#ff7744"
 "rainbow.4" = "#ff7744"
-"rainbow.5" = "#ff5588"
-"rainbow.6" = "#ff5588"
+"rainbow.5" = "#ee3333"
+"rainbow.6" = "#ee3333"
 "rainbow.7" = "#ff7733"
 "rainbow.8" = "#ff4444"
 red = "#ff4444"
@@ -155,8 +155,8 @@ teal = "#ff7744"
 "terminal.cyan_bright" = "#ffad8b"
 "terminal.green" = "#ff7744"
 "terminal.green_bright" = "#ff8e6e"
-"terminal.magenta" = "#ff5588"
-"terminal.magenta_bright" = "#ff7297"
+"terminal.magenta" = "#ee3333"
+"terminal.magenta_bright" = "#ff4343"
 "terminal.red" = "#ff4444"
 "terminal.red_bright" = "#ff6565"
 "terminal.white" = "#cc9988"

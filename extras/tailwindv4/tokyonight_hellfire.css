@@ -17,7 +17,7 @@
   --color-tokyonight-hellfire-blue1: oklch(from #ffaa77 l c h);
   --color-tokyonight-hellfire-blue2: oklch(from #ff8833 l c h);
   --color-tokyonight-hellfire-blue5: oklch(from #ffcc44 l c h);
-  --color-tokyonight-hellfire-blue6: oklch(from #ff6699 l c h);
+  --color-tokyonight-hellfire-blue6: oklch(from #ee4444 l c h);
   --color-tokyonight-hellfire-blue7: oklch(from #4a2218 l c h);
   --color-tokyonight-hellfire-border: var(--color-tokyonight-hellfire-black);
   --color-tokyonight-hellfire-border-highlight: oklch(from #d28b61 l c h);
@@ -46,11 +46,11 @@
   --color-tokyonight-hellfire-green2: oklch(from #d4764e l c h);
   --color-tokyonight-hellfire-hint: var(--color-tokyonight-hellfire-teal);
   --color-tokyonight-hellfire-info: var(--color-tokyonight-hellfire-blue2);
-  --color-tokyonight-hellfire-magenta: oklch(from #ff5588 l c h);
-  --color-tokyonight-hellfire-magenta-bright: oklch(from #ff7297 l c h);
-  --color-tokyonight-hellfire-magenta2: oklch(from #ff3377 l c h);
+  --color-tokyonight-hellfire-magenta: oklch(from #ee3333 l c h);
+  --color-tokyonight-hellfire-magenta-bright: oklch(from #ff4343 l c h);
+  --color-tokyonight-hellfire-magenta2: oklch(from #dd2222 l c h);
   --color-tokyonight-hellfire-orange: oklch(from #ff7733 l c h);
-  --color-tokyonight-hellfire-purple: oklch(from #ff5588 l c h);
+  --color-tokyonight-hellfire-purple: oklch(from #ee3333 l c h);
   --color-tokyonight-hellfire-rainbow1: var(--color-tokyonight-hellfire-blue);
   --color-tokyonight-hellfire-rainbow2: var(--color-tokyonight-hellfire-yellow);
   --color-tokyonight-hellfire-rainbow3: var(--color-tokyonight-hellfire-green);

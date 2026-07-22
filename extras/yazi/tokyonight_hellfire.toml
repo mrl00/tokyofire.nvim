@@ -15,7 +15,7 @@ find_position = { fg = "#ff8833", bg = "#331b0e", bold = true }
 # Marker
 marker_copied   = { fg = "#ff7744", bg = "#ff7744" }
 marker_cut      = { fg = "#ff4444", bg = "#ff4444" }
-marker_marked   = { fg = "#ff5588", bg = "#ff5588" }
+marker_marked   = { fg = "#ee3333", bg = "#ee3333" }
 marker_selected = { fg = "#ffeedd", bg = "#ffeedd" }
 
 # Count
@@ -36,11 +36,11 @@ inactive = { fg = "#ffeedd", bg = "#331a12" }
 normal_main = { fg = "#160c08", bg = "#ffeedd", bold = true }
 normal_alt  = { fg = "#ffeedd", bg = "#331a12" }
 
-select_main = { fg = "#160c08", bg = "#ff5588", bold = true }
-select_alt  = { fg = "#ff5588", bg = "#331a12" }
+select_main = { fg = "#160c08", bg = "#ee3333", bold = true }
+select_alt  = { fg = "#ee3333", bg = "#331a12" }
 
-unset_main  = { fg = "#160c08", bg = "#ff5588", bold = true }
-unset_alt   = { fg = "#ff5588", bg = "#331a12" }
+unset_main  = { fg = "#160c08", bg = "#ee3333", bold = true }
+unset_alt   = { fg = "#ee3333", bg = "#331a12" }
 
 [status]
 overall   = { fg = "#ffeedd", bg = "#150b07" }
@@ -68,7 +68,7 @@ inactive = { fg = "#ffeedd" }
 [input]
 border   = { fg = "#ff8833" }
 title    = { fg = "#ff8833" }
-value    = { fg = "#ff5588" }
+value    = { fg = "#ee3333" }
 selected = { bg = "#663825" }
 
 # Completion
@@ -93,7 +93,7 @@ cols            = 3
 mask            = { bg = "#150b07" }
 cand            = { fg = "#ff9966" }
 rest            = { fg = "#ffeedd" }
-desc            = { fg = "#ff5588" }
+desc            = { fg = "#ee3333" }
 separator       = " ➜ "
 separator_style = { fg = "#996655" }
 
@@ -125,7 +125,7 @@ icon_info = ""
 # Help
 [help]
 on      = { fg = "#ff7744" }
-run     = { fg = "#ff5588" }
+run     = { fg = "#ee3333" }
 desc    = { fg = "#ff9966" }
 hovered = { bg = "#331a12" }
 footer  = { fg = "#ffeedd", bg = "#1c0f0a" }
@@ -137,7 +137,7 @@ rules = [
 	{ mime = "image/*", fg = "#ffbb33" },
 
 	# Media
-	{ mime = "{audio,video}/*", fg = "#ff5588" },
+	{ mime = "{audio,video}/*", fg = "#ee3333" },
 
 	# Archives
 	{ mime = "application/*zip", fg = "#ff4444" },

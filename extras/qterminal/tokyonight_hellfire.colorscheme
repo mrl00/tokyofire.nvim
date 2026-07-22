@@ -29,7 +29,7 @@ Color=255,187,51
 Color=255,238,221
 
 [Color5]
-Color=255,85,136
+Color=238,51,51
 
 [Color6]
 Color=255,153,102
@@ -53,7 +53,7 @@ Color=255,204,135
 Color=255,255,255
 
 [Color5Intense]
-Color=255,114,151
+Color=255,67,67
 
 [Color6Intense]
 Color=255,173,139

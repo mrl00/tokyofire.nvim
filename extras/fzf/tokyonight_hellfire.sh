@@ -13,11 +13,11 @@ export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \
   --color=hl+:#ffaa77 \
   --color=hl:#ffaa77 \
   --color=info:#664433 \
-  --color=marker:#ff3377 \
-  --color=pointer:#ff3377 \
+  --color=marker:#dd2222 \
+  --color=pointer:#dd2222 \
   --color=prompt:#ffaa77 \
   --color=query:#ffeedd:regular \
   --color=scrollbar:#d28b61 \
   --color=separator:#ff7733 \
-  --color=spinner:#ff3377 \
+  --color=spinner:#dd2222 \
 "

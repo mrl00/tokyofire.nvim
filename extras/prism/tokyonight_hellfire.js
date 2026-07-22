@@ -25,7 +25,7 @@ module.exports =  {
     {
       types: ["punctuation"],
       style: {
-        color: "#ff5588",
+        color: "#ee3333",
       },
     },
     {
@@ -37,7 +37,7 @@ module.exports =  {
     {
       types: ["keyword"],
       style: {
-        color: "#ff5588",
+        color: "#ee3333",
       },
     },
     {

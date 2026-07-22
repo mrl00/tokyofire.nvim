@@ -6,9 +6,9 @@ set -l red ff4444
 set -l orange ff7733
 set -l yellow ffbb33
 set -l green ff7744
-set -l purple ff5588
+set -l purple ee3333
 set -l cyan ff9966
-set -l pink ff5588
+set -l pink ee3333
 
 # Syntax Highlighting Colors
 set -g fish_color_normal $foreground
