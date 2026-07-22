@@ -1,0 +1,32 @@
+# -----------------------------------------------------------------------------
+# TokyoNight Alacritty Colors
+# Theme: Tokyo Night Hell
+# Upstream: https://github.com/folke/tokyonight.nvim/raw/main/extras/alacritty/tokyonight_hell.toml
+# -----------------------------------------------------------------------------
+
+# Default colors
+[colors.primary]
+background = '#1c0f0a'
+foreground = '#fff0e5'
+
+# Normal colors
+[colors.normal]
+black = '#160c08'
+red = '#ff4444'
+green = '#ff7744'
+yellow = '#ffbb33'
+blue = '#ffeedd'
+magenta = '#ee3333'
+cyan = '#ff9966'
+white = '#eebb99'
+
+# Bright colors
+[colors.bright]
+black = '#4a2218'
+red = '#ff6565'
+green = '#ff8e6e'
+yellow = '#ffcc87'
+blue = '#ffffff'
+magenta = '#ff4343'
+cyan = '#ffad8b'
+white = '#fff0e5'

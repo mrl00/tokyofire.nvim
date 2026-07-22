@@ -1,0 +1,45 @@
+[colors]
+foreground = "#fff8f5"
+background = "#1a1615"
+cursor_bg = "#fff8f5"
+cursor_border = "#fff8f5"
+cursor_fg = "#1a1615"
+selection_bg = "#5e4b44"
+selection_fg = "#fff8f5"
+split = "#fbeee6"
+compose_cursor = "#f5b041"
+scrollbar_thumb = "#2c2523"
+
+ansi = ["#151211", "#ff9994", "#f1a98c", "#fde3a7", "#fbeee6", "#ff9ebb", "#fbc5b0", "#d0c0ba"]
+brights = ["#3d2e2a", "#ffaeaa", "#fdb89d", "#fff3da", "#fffffe", "#ffb3c9", "#ffd6c8", "#fff8f5"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#141110"
+background = "#1a1615"
+
+[colors.tab_bar.active_tab]
+fg_color = "#141110"
+bg_color = "#fbeee6"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#5c4f4b"
+bg_color = "#2c2523"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#fbeee6"
+bg_color = "#2c2523"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#fbeee6"
+bg_color = "#1a1615"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#fbeee6"
+bg_color = "#1a1615"
+
+[metadata]
+aliases = []
+author = "folke"
+name = "tokyonight_whitefire"

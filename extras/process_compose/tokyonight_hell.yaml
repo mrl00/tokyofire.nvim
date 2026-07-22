@@ -1,0 +1,36 @@
+style:
+  name: tokyonight_hell
+  body:
+    fgColor: '#fff0e5'
+    bgColor: '#150b07'
+    secondaryTextColor: '#eebb99'
+    tertiaryTextColor: '${fg_visual}'
+    borderColor: '#331a12'
+  stat_table:
+    keyFgColor: '#ffbb33'
+    valueFgColor: '#fff0e5'
+    logoColor: '#ffbb33'
+  proc_table:
+    fgColor: '#ffeedd'
+    fgWarning: '#ffbb33'
+    fgPending: '#885544'
+    fgCompleted: '#ff7744'
+    fgError: '#dd3333'
+    headerFgColor: '#fff0e5'
+  help:
+    fgColor: '#ffaa77'
+    keyColor: '#fff0e5'
+    hlColor: '#ff7744'
+    categoryFgColor: '#ffcc44'
+  dialog:
+    fgColor: '#ffaa77'
+    bgColor: '#160c08'
+    contrastBgColor: '#1c0f0a'
+    attentionBgColor: '#dd3333'
+    buttonFgColor: '#160c08'
+    buttonBgColor: '#331a12'
+    buttonFocusFgColor: '#160c08'
+    buttonFocusBgColor: '#ffeedd'
+    labelFgColor: '#ffbb33'
+    fieldFgColor: '#160c08'
+    fieldBgColor: '#4a2218'

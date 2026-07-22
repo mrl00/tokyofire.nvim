@@ -1,1 +1,1 @@
-runtime colors/tokyonight-moon.vim
+runtime colors/tokyonight-fire.vim

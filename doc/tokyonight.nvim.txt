@@ -3,7 +3,7 @@
 ==============================================================================
 Table of Contents                          *tokyonight.nvim-table-of-contents*
 
-1. Tokyo Night                                   |tokyonight.nvim-tokyo-night|
+1. Tokyo Fire                                   |tokyonight.nvim-tokyo-night|
   - Features                            |tokyonight.nvim-tokyo-night-features|
   - Requirements                    |tokyonight.nvim-tokyo-night-requirements|
   - Installation                    |tokyonight.nvim-tokyo-night-installation|
@@ -15,25 +15,27 @@ Table of Contents                          *tokyonight.nvim-table-of-contents*
 2. Links                                               |tokyonight.nvim-links|
 
 ==============================================================================
-1. Tokyo Night                                   *tokyonight.nvim-tokyo-night*
+1. Tokyo Fire                                   *tokyonight.nvim-tokyo-night*
 
-A dark and light Neovim <https://github.com/neovim/neovim> theme written in Lua
-<https://www.lua.org> ported from the Visual Studio Code TokyoNight
+A warm, fire-themed Neovim <https://github.com/neovim/neovim> theme written in
+Lua <https://www.lua.org>, a derivative of tokyonight.nvim
+<https://github.com/folke/tokyonight.nvim> by Folke Lemaitre. Originally based
+on the Visual Studio Code TokyoNight
 <https://github.com/enkia/tokyo-night-vscode-theme> theme. Includes
 |tokyonight.nvim-extra| themes for Kitty
 <https://sw.kovidgoyal.net/kitty/conf.html>, Alacritty
 <https://github.com/alacritty/alacritty>, iTerm <https://iterm2.com/> and Fish
 <https://fishshell.com/docs/current/index.html>.
 
-MoonStormNightDay
+FireWhiteFire
 FEATURES                                *tokyonight.nvim-tokyo-night-features*
 
 - Supports the latest Neovim <https://github.com/neovim/neovim>
     0.9.0 <https://github.com/neovim/neovim/releases/tag/v0.9.0> features.
 - Terminal colors.
 - Supports all major plugins.
-- Provides TokyoNight <https://github.com/folke/tokyonight.nvim>
-    |tokyonight.nvim-extras| for numerous other applications.
+- Provides TokyoFire extras for numerous other applications.
+- Two styles: `fire` (default) and `whitefire` (brighter text).
 
 Supported Plugins ~
 
@@ -287,7 +289,7 @@ Install the theme with your preferred package manager, such as folke/lazy.nvim
 
 >lua
     {
-      "folke/tokyonight.nvim",
+      "mrl00/tokyofire.nvim",
       lazy = false,
       priority = 1000,
       opts = {},
@@ -305,12 +307,8 @@ USAGE                                      *tokyonight.nvim-tokyo-night-usage*
     colorscheme tokyonight
     
     " There are also colorschemes for the different styles.
-    colorscheme tokyonight-night
-    colorscheme tokyonight-storm
-    colorscheme tokyonight-day
-    colorscheme tokyonight-moon
     colorscheme tokyonight-fire
-    colorscheme tokyonight-softpaper
+    colorscheme tokyonight-whitefire
 <
 
 Some plugins need extra configuration to work with **TokyoNight**.
@@ -357,13 +355,12 @@ CONFIGURATION                      *tokyonight.nvim-tokyo-night-configuration*
 
   [!IMPORTANT] Set the configuration **BEFORE** loading the color scheme with
   `colorscheme tokyonight`.
-The theme offers six styles: |tokyonight.nvim-storm|, |tokyonight.nvim-moon|,
-|tokyonight.nvim-night|, |tokyonight.nvim-day|, |tokyonight.nvim-fire|, and |tokyonight.nvim-softpaper|.
+The theme offers two styles: `fire` and `whitefire`.
 
-The |tokyonight.nvim-day| style is used when `{ style = "day" }` is passed to
-`setup(options)` or when `vim.o.background = "light"`.
+The `whitefire` style is used when `{ style = "whitefire" }` is passed to
+`setup(options)`.
 
-TokyoNight <https://github.com/folke/tokyonight.nvim> uses the default options,
+TokyoFire <https://github.com/mrl00/tokyofire.nvim> uses the default options,
 unless `setup` is explicitly called.
 
 Default Options ~
@@ -373,8 +370,7 @@ Default Options ~
     ---@field on_colors fun(colors: ColorScheme)
     ---@field on_highlights fun(highlights: tokyonight.Highlights, colors: ColorScheme)
     M.defaults = {
-      style = "moon", -- The theme comes in six styles, `storm`, a darker variant `night`, `day`, `fire`, and `softpaper`
-      light_style = "day", -- The theme is used when the background is set to light
+      style = "fire", -- The theme comes in two styles: `fire` and `whitefire`
       transparent = false, -- Enable this to disable setting the background color
       terminal_colors = true, -- Configure the colors used when opening a `:terminal` in Neovim
       styles = {
@@ -388,7 +384,6 @@ Default Options ~
         sidebars = "dark", -- style for sidebars, see below
         floats = "dark", -- style for floating windows
       },
-      day_brightness = 0.3, -- Adjusts the brightness of the colors of the **Day** style. Number between 0 and 1, from dull to vibrant colors
       dim_inactive = false, -- dims inactive windows
       lualine_bold = false, -- When `true`, section headers in the lualine theme will be bold
     
@@ -415,7 +410,7 @@ Default Options ~
         auto = true,
         -- add any plugins here that you want to enable
         -- for all possible plugins, see:
-        --   * https://github.com/folke/tokyonight.nvim/tree/main/lua/tokyonight/groups
+        --   * https://github.com/mrl00/tokyofire.nvim/tree/main/lua/tokyonight/groups
         -- telescope = true,
       },
     }
@@ -432,17 +427,16 @@ override them using `config.on_colors(colors)`.
 3. `config.on_highlights(highlights, colors)` can be used to override highlight
 groups.
 
-For default values of `colors` and `highlights`, please consult the storm
-<extras/lua/tokyonight_storm.lua>, moon <extras/lua/tokyonight_moon.lua>, night
-<extras/lua/tokyonight_night.lua>, and day <extras/lua/tokyonight_day.lua>
+For default values of `colors` and `highlights`, please consult the fire
+<extras/lua/tokyonight_fire.lua> and whitefire <extras/lua/tokyonight_whitefire.lua>
 themes.
 
 Settings & Changing Colors ~
 
 >lua
     require("tokyonight").setup({
-      -- use the night style
-      style = "night",
+      -- use the whitefire style
+      style = "whitefire",
       -- disable italic for functions
       styles = {
         functions = {}

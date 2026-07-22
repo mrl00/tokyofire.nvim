@@ -18,9 +18,14 @@ function M.mod(modname)
   if package.loaded[modname] then
     return package.loaded[modname]
   end
-  local ret = loadfile(me .. "/" .. modname:gsub("%.", "/") .. ".lua")()
-  package.loaded[modname] = ret
-  return ret
+  local filepath = me .. "/" .. modname:gsub("%.", "/") .. ".lua"
+  local ok, ret = pcall(loadfile, filepath)
+  if not ok or not ret then
+    error("Failed to load module: " .. modname .. "\n" .. tostring(ret))
+  end
+  local mod = ret()
+  package.loaded[modname] = mod
+  return mod
 end
 
 ---@param foreground string foreground color
@@ -163,6 +168,7 @@ end
 function M.cache.clear()
   uv.fs_unlink(M.cache.file("fire"))
   uv.fs_unlink(M.cache.file("whitefire"))
+  uv.fs_unlink(M.cache.file("hell"))
 end
 
 return M

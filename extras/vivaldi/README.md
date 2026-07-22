@@ -1,6 +1,6 @@
-# Tokyo Night for Vivaldi Browser
+# Tokyo Fire for Vivaldi Browser
 
-The Tokyo Night theme collection for Vivaldi browser. Includes day, moon, night, and storm variants.
+The Tokyo Fire theme collection for Vivaldi browser. Includes fire and whitefire variants.
 
 ## Usage
 
@@ -24,12 +24,12 @@ A script is included to build the theme files:
 If you prefer to manually create the theme files:
 
 1. Create a temporary directory
-2. Copy a theme JSON file (e.g., `tokyonight_day.json`) to this directory
+2. Copy a theme JSON file (e.g., `tokyonight_fire.json`) to this directory
 3. Rename it to `settings.json`
 4. Zip the file: 
 
    ```bash
-   zip tokyonight_day.zip settings.json`
+   zip tokyonight_fire.zip settings.json
    ```
 
 5. Repeat for each theme variant
