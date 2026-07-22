@@ -183,8 +183,9 @@ vim.cmd[[colorscheme tokyonight]]
 ```vim
 colorscheme tokyonight
 
-" Or directly use the fire style:
+" Or choose a specific style:
 colorscheme tokyonight-fire
+colorscheme tokyonight-whitefire
 ```
 
 Some plugins need extra configuration to work with **TokyoFire**.
@@ -230,8 +231,9 @@ let g:lightline = {'colorscheme': 'tokyonight'}
 > [!IMPORTANT]
 > Set the configuration **BEFORE** loading the color scheme with `colorscheme tokyonight`.
 
-[TokyoFire](https://github.com/folke/tokyonight.nvim) uses the default options,
-unless `setup` is explicitly called.
+[TokyoFire](https://github.com/folke/tokyonight.nvim) comes in two styles:
+- `fire` (default) — warm dark theme
+- `whitefire` — same dark background with brighter text colors
 
 <details>
   <summary>Default Options</summary>
