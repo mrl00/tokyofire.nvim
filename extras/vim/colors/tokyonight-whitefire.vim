@@ -87,7 +87,7 @@ hi IlluminatedWordText guibg=#4a3d39
 hi IlluminatedWordWrite guibg=#4a3d39
 hi IncSearch guibg=#f5b041 guifg=#151211
 hi Italic gui=italic guibg=NONE guifg=#fff8f5
-hi Keyword gui=italic guibg=NONE guifg=#fbc5b0
+hi Keyword gui=bold guibg=NONE guifg=#fbc5b0
 hi LineNr guibg=NONE guifg=#4a3d39
 hi LineNrAbove guibg=NONE guifg=#4a3d39
 hi LineNrBelow guibg=NONE guifg=#4a3d39

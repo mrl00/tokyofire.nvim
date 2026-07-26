@@ -26,12 +26,12 @@ function = { fg = "#fceed2" }
 "function.special" = { fg = "#fdaf8b" }
 hint = { fg = "#f89068" }
 info = { fg = "#fa9c3a" }
-keyword = { fg = "#f56d88", modifiers = ["italic"] }
+keyword = { fg = "#f56d88", modifiers = ["bold"] }
 "keyword.control" = { fg = "#f56d88" }
 "keyword.control.conditional" = { fg = "#f56d88" }
 "keyword.control.exception" = { fg = "#f56d88" }
 "keyword.control.repeat" = { fg = "#f56d88" }
-"keyword.control.return" = { fg = "#f56d88", modifiers = ["italic"] }
+"keyword.control.return" = { fg = "#f56d88", modifiers = ["bold"] }
 "keyword.directive" = { fg = "#fdaf8b" }
 "keyword.function" = { fg = "#f56d88" }
 "keyword.operator" = { fg = "#f56d88" }
