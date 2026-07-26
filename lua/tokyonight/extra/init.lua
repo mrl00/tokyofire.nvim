@@ -30,6 +30,7 @@ M.extras = {
   konsole          = { ext = "colorscheme", url = "https://konsole.kde.org/", label = "Konsole" },
   lazygit          = { ext = "yml", url = "https://github.com/jesseduffield/lazygit", label = "Lazygit" },
   lua              = { ext = "lua", url = "https://www.lua.org", label = "Lua Table for testing" },
+  obsidian        = { ext = "css", url = "https://obsidian.md", label = "Obsidian" },
   opencode         = { ext = "json", url = "https://github.com/sst/opencode", label = "opencode" },
   pi               = { ext = "json", url = "https://github.com/badlogic/pi-mono", label = "pi" },
   prism            = { ext = "js", url = "https://prismjs.com", label = "Prism" },
