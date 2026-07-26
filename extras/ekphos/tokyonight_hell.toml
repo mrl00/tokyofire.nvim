@@ -1,0 +1,87 @@
+# Tokyo Night Hell
+# Upstream: https://github.com/folke/tokyonight.nvim/raw/main/extras/ekphos/tokyonight_hell.toml
+
+[base]
+background = '#1c0f0a'
+background_secondary = '#150b07'
+foreground = '#fff0e5'
+muted = '#cc7755'
+
+[accent]
+primary = '#ff7733'
+secondary = '#ee3333'
+
+[semantic]
+error = '#ff4444'
+warning = '#ffbb33'
+success = '#ff7744'
+info = '#ff9966'
+
+[ui]
+border = '#331a12'
+border_focused = '#ff7733'
+selection = '#6e3f28'
+cursor = '#fff0e5'
+
+[ui.statusbar]
+background = '#150b07'
+foreground = '#fff0e5'
+brand = '#ff7733'
+mode = '#cc7755'
+separator = '#331a12'
+
+[ui.dialog]
+background = '#150b07'
+border = '#ff7733'
+title = '#ff7733'
+text = '#fff0e5'
+
+[ui.sidebar]
+background = '#150b07'
+item = '#eebb99'
+item_selected = '#ff7733'
+folder = '#ff9966'
+folder_expanded = '#ff9966'
+
+[ui.content]
+background = '#1c0f0a'
+text = '#fff0e5'
+heading1 = '#ff7733'
+heading2 = '#ff7744'
+heading3 = '#ffbb33'
+heading4 = '#ee3333'
+link = '#ff9966'
+link_invalid = '#ff4444'
+code = '#ff7744'
+code_background = '#150b07'
+blockquote = '#cc7755'
+list_marker = '#ee3333'
+
+[ui.outline]
+background = '#150b07'
+heading1 = '#ff7733'
+heading2 = '#ff7744'
+heading3 = '#ffbb33'
+heading4 = '#ee3333'
+
+[ui.search]
+background = '#150b07'
+border = '#ff7733'
+input = '#fff0e5'
+match_highlight = '#ffbb33'
+match_current = '#ff7733'
+match_count = '#cc7755'
+
+[ui.editor]
+heading1 = '#ff7733'
+heading2 = '#ff7744'
+heading3 = '#ffbb33'
+heading4 = '#ee3333'
+heading5 = '#ff9966'
+heading6 = '#cc7755'
+code = '#ff7744'
+link = '#ff9966'
+blockquote = '#cc7755'
+list_marker = '#ee3333'
+bold = '#ffbb33'
+italic = '#ff9966'

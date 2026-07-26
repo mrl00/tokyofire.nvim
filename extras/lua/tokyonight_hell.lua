@@ -126,8 +126,8 @@ local highlights = {
   ["@function.method"] = "Function",
   ["@function.method.call"] = "@function.method",
   ["@keyword"] = {
+    bold = true,
     fg = "#ee3333",
-    italic = true,
   },
   ["@keyword.conditional"] = "Conditional",
   ["@keyword.coroutine"] = "@keyword",
@@ -1208,8 +1208,8 @@ local highlights = {
     italic = true,
   },
   Keyword = {
+    bold = true,
     fg = "#ff9966",
-    italic = true,
   },
   LazyProgressDone = {
     bold = true,
