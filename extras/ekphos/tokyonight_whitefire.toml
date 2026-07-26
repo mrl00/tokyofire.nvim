@@ -1,0 +1,87 @@
+# Tokyo Night White Fire
+# Upstream: https://github.com/folke/tokyonight.nvim/raw/main/extras/ekphos/tokyonight_whitefire.toml
+
+[base]
+background = '#1a1615'
+background_secondary = '#141110'
+foreground = '#fff8f5'
+muted = '#a0908a'
+
+[accent]
+primary = '#f5b041'
+secondary = '#ff9ebb'
+
+[semantic]
+error = '#ff9994'
+warning = '#fde3a7'
+success = '#f1a98c'
+info = '#fbc5b0'
+
+[ui]
+border = '#2c2523'
+border_focused = '#f5b041'
+selection = '#5e4b44'
+cursor = '#fff8f5'
+
+[ui.statusbar]
+background = '#141110'
+foreground = '#fff8f5'
+brand = '#f5b041'
+mode = '#a0908a'
+separator = '#2c2523'
+
+[ui.dialog]
+background = '#141110'
+border = '#f5b041'
+title = '#f5b041'
+text = '#fff8f5'
+
+[ui.sidebar]
+background = '#141110'
+item = '#d0c0ba'
+item_selected = '#f5b041'
+folder = '#fbc5b0'
+folder_expanded = '#fbc5b0'
+
+[ui.content]
+background = '#1a1615'
+text = '#fff8f5'
+heading1 = '#f5b041'
+heading2 = '#f1a98c'
+heading3 = '#fde3a7'
+heading4 = '#ff9ebb'
+link = '#fbc5b0'
+link_invalid = '#ff9994'
+code = '#f1a98c'
+code_background = '#141110'
+blockquote = '#a0908a'
+list_marker = '#ff9ebb'
+
+[ui.outline]
+background = '#141110'
+heading1 = '#f5b041'
+heading2 = '#f1a98c'
+heading3 = '#fde3a7'
+heading4 = '#ff9ebb'
+
+[ui.search]
+background = '#141110'
+border = '#f5b041'
+input = '#fff8f5'
+match_highlight = '#fde3a7'
+match_current = '#f5b041'
+match_count = '#a0908a'
+
+[ui.editor]
+heading1 = '#f5b041'
+heading2 = '#f1a98c'
+heading3 = '#fde3a7'
+heading4 = '#ff9ebb'
+heading5 = '#fbc5b0'
+heading6 = '#a0908a'
+code = '#f1a98c'
+link = '#fbc5b0'
+blockquote = '#a0908a'
+list_marker = '#ff9ebb'
+bold = '#fde3a7'
+italic = '#fbc5b0'
