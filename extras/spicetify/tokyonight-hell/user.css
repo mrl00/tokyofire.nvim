@@ -1,98 +1,171 @@
 /* Tokyo Night Hell — Spicetify Theme */
 /* https://github.com/mrl00/tokyofire.nvim */
 
-/* === Transparent Backgrounds === */
-:root {
-  --spice-main: rgba(28, 15, 10, 0.85) !important;
-  --spice-sidebar: rgba(21, 11, 7, 0.9) !important;
-  --spice-player: rgba(21, 11, 7, 0.9) !important;
-  --spice-card: rgba(51, 26, 18, 0.8) !important;
-  --spice-notification: rgba(255, 119, 51, 0.95) !important;
-  --spice-notification-error: rgba(255, 68, 68, 0.95) !important;
-  --spice-misc: rgba(204, 119, 85, 0.5) !important;
+/* === Enable Transparency === */
+.encore-dark-theme {
+  --background-base: transparent !important;
 }
 
-/* === Global === */
-.main-grid-container {
-  background: transparent !important;
+/* === Glass Backdrop Variables === */
+:root {
+  --backdrop: rgba(28, 15, 10, 0.55);
+  --backdrop-light: rgba(28, 15, 10, 0.35);
+  --backdrop-lighter: rgba(28, 15, 10, 0.25);
+  --backdrop-darker: rgba(15, 7, 4, 0.65);
+  --backdrop-dark: rgba(15, 7, 4, 0.8);
+}
+
+/* === Override Encore Theme Variables === */
+.encore-layout-themes,
+.encore-dark-theme .encore-announcement-set,
+.encore-bright-accent-set {
+  --background-highlight: var(--backdrop) !important;
+  --background-press: var(--backdrop-darker) !important;
+  --background-elevated-base: var(--backdrop) !important;
+  --background-elevated-highlight: var(--backdrop-darker) !important;
+  --background-elevated-press: var(--backdrop-lighter) !important;
+  --spice-card: rgba(51, 26, 18, 0.6) !important;
+}
+
+/* === Main Container === */
+.Root__main-view {
+  background-color: var(--backdrop) !important;
 }
 
 .Root__top-container {
   background: transparent !important;
 }
 
-.Root__nav-bar {
-  background: transparent !important;
+.Root__top-container::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: var(--backdrop-darker);
+  z-index: 0;
+  pointer-events: none;
 }
 
-/* === Main View === */
-.main-view-container {
-  background: transparent !important;
+/* === Navigation Bar === */
+.Root__nav-bar,
+.WBFaUw_oOfN2m4aTxggt {
+  background-color: transparent !important;
 }
 
-.main-view-container__scroll-node {
-  background: transparent !important;
-}
-
-/* === Sidebar === */
-.nav-bar {
-  background: transparent !important;
-}
-
-.sidebar {
-  background: transparent !important;
-}
-
-.sidebar-item-wrapper {
-  background: transparent !important;
-}
-
-/* === Player === */
-.player-controls {
-  background: transparent !important;
-}
-
-.playback-bar {
-  background-color: rgba(255, 119, 51, 0.3) !important;
-  border-radius: 4px !important;
-}
-
-.playback-bar__progress-bar {
-  background-color: rgba(255, 119, 51, 0.3) !important;
-}
-
-.progress-bar__bar {
-  background-color: rgba(255, 119, 51, 0.3) !important;
-}
-
-.progress-bar__bar_inner {
-  background-color: var(--spice-button) !important;
+.TkqXOzhmCCuE6YI3hlgA,
+.WBFaUw_oOfN2m4aTxggt {
+  backdrop-filter: blur(20px) !important;
 }
 
 /* === Top Bar === */
-.topbar {
-  background: transparent !important;
+.main-topBar-background {
+  background: none !important;
+  backdrop-filter: blur(25px) !important;
 }
 
-.Root__top-bar {
-  background: transparent !important;
+.main-topBar-overlay {
+  background-color: transparent !important;
+}
+
+.Root__globalNav {
+  background: none !important;
+}
+
+.Root__globalNav button {
+  background-color: var(--backdrop) !important;
+  border-radius: 6px;
+}
+
+/* === Sidebar === */
+#Desktop_LeftSidebar_Id {
+  background-color: transparent !important;
+}
+
+.main-yourLibraryX-libraryContainer {
+  --background-highlight: rgba(255, 255, 255, 0.05) !important;
+  background: none !important;
+}
+
+/* === Now Playing Bar === */
+.Root__now-playing-bar {
+  background-color: var(--backdrop) !important;
+  border-radius: 8px;
+  margin: 0 8px 8px;
+}
+
+.main-nowPlayingBar-nowPlayingBar {
+  height: 90px !important;
+}
+
+/* === Progress Bar === */
+.progress-bar {
+  --bg-color: rgba(255, 255, 255, 0.2);
+  --fg-color: var(--spice-button);
 }
 
 /* === Cards === */
-.card {
-  background: rgba(51, 26, 18, 0.6) !important;
-  border-radius: 8px !important;
-  transition: background-color 0.2s ease !important;
+.main-card-card {
+  background-color: var(--backdrop) !important;
 }
 
-.card:hover {
-  background: rgba(51, 26, 18, 0.9) !important;
+.main-card-card:hover {
+  background-color: var(--backdrop-lighter) !important;
+}
+
+/* === Search === */
+.x-searchInput-searchInputInput,
+.main-globalNav-searchInputContainer input {
+  background-color: var(--backdrop) !important;
+  border-radius: 8px !important;
+}
+
+/* === Modals === */
+.GenericModal__overlay > div[role="dialog"],
+.main-trackCreditsModal-container,
+.main-aboutRecsModal-container,
+.main-playlistEditDetailsModal-container {
+  background-color: rgba(48, 48, 48, 0.3) !important;
+  backdrop-filter: blur(18px) !important;
+  border-radius: 8px;
 }
 
 /* === Context Menu === */
-.generic-modal {
-  background: rgba(21, 11, 7, 0.95) !important;
-  border: 1px solid rgba(255, 119, 51, 0.3) !important;
+.main-popper-container {
+  background-color: rgba(0, 0, 0, 0.45) !important;
+  backdrop-filter: blur(25px) !important;
+}
+
+/* === Friend Activity === */
+.main-buddyFeed-container {
+  --background-base: var(--backdrop) !important;
+  border-radius: 8px;
+}
+
+/* === Now Playing Sidebar === */
+.main-nowPlayingView-section {
+  background-color: var(--backdrop);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+/* === Home View === */
+.main-home-homeHeader {
+  background: none !important;
+}
+
+.view-homeShortcutsGrid-shortcut {
+  background-color: var(--backdrop);
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.view-homeShortcutsGrid-shortcut:hover {
+  background: var(--backdrop-lighter);
+  transform: scale(1.02);
+}
+
+/* === Search Bar Container === */
+.main-globalNav-searchContainer button {
+  background-color: var(--backdrop) !important;
   border-radius: 8px !important;
 }
 
@@ -114,78 +187,22 @@
   background: rgba(255, 119, 51, 0.5) !important;
 }
 
-/* === Playlist === */
-.playlist-entity-list {
-  background: transparent !important;
+/* === Text Shadows for Readability === */
+.main-entityHeader-topbarTitle,
+.main-shelf-title,
+.main-entityHeader-titleButton,
+.main-entityHeader-metaData,
+.playlist-playlist-playlistDescription,
+.main-entityHeader-detailsText,
+.main-entityHeader-title,
+.main-trackInfo-name,
+.main-yourLibraryX-listRowSubtitle {
+  text-shadow: -1px 3px 20px rgba(0, 0, 0, 0.2);
 }
 
-.playlist-row {
-  background: transparent !important;
-}
-
-.playlist-row:hover {
-  background: rgba(51, 26, 18, 0.3) !important;
-}
-
-/* === Search === */
-.search-searchSearchBox {
-  background: rgba(51, 26, 18, 0.5) !important;
-  border: 1px solid rgba(255, 119, 51, 0.2) !important;
-  border-radius: 20px !important;
-}
-
-/* === Now Playing === */
-.now-playing-view {
-  background: transparent !important;
-}
-
-/* === Artist Page === */
-.artist-page {
-  background: transparent !important;
-}
-
-/* === Album Page === */
-.album-page {
-  background: transparent !important;
-}
-
-/* === Queue === */
-.queue {
-  background: transparent !important;
-}
-
-/* === Settings === */
-.settings {
-  background: transparent !important;
-}
-
-/* === Equalizer === */
-.equalizer {
-  background: transparent !important;
-}
-
-/* === Lyrics === */
-.lyrics {
-  background: transparent !important;
-}
-
-/* === Fullscreen === */
-.full-screen-player {
-  background: transparent !important;
-}
-
-/* === Friend Activity === */
-.friend-activity {
-  background: transparent !important;
-}
-
-/* === Clean up borders and shadows === */
-.Root__top-bar::before,
-.Root__top-bar::after {
-  display: none !important;
-}
-
-.main-topBar-topBarContent::before,
-.main-topBar-topBarContent::after {
-  display: none !important;
+/* === Snackbars/Notifications === */
+.notistack-Snackbar > div:not(div.notistack-MuiContent) {
+  background-color: var(--backdrop-darker);
+  backdrop-filter: blur(10px) !important;
+  border-radius: 8px;
 }
