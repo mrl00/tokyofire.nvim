@@ -1,21 +1,17 @@
 /* Tokyo Night Hell — Spicetify Theme */
 /* https://github.com/mrl00/tokyofire.nvim */
 
-/* === Enable Transparency === */
-.encore-dark-theme {
-  --background-base: transparent !important;
-}
-
-/* === Glass Backdrop Variables === */
+/* === Glass Variables === */
 :root {
-  --backdrop: rgba(28, 15, 10, 0.55);
-  --backdrop-light: rgba(28, 15, 10, 0.35);
-  --backdrop-lighter: rgba(28, 15, 10, 0.25);
-  --backdrop-darker: rgba(15, 7, 4, 0.65);
-  --backdrop-dark: rgba(15, 7, 4, 0.8);
+  --backdrop: rgba(28, 15, 10, 0.7);
+  --backdrop-light: rgba(28, 15, 10, 0.5);
+  --backdrop-lighter: rgba(28, 15, 10, 0.35);
+  --backdrop-darker: rgba(15, 7, 4, 0.8);
+  --backdrop-blur: blur(20px);
 }
 
-/* === Override Encore Theme Variables === */
+/* === Override Encore Variables === */
+.encore-dark-theme,
 .encore-layout-themes,
 .encore-dark-theme .encore-announcement-set,
 .encore-bright-accent-set {
@@ -27,22 +23,13 @@
   --spice-card: rgba(51, 26, 18, 0.6) !important;
 }
 
-/* === Main Container === */
-.Root__main-view {
-  background-color: var(--backdrop) !important;
-}
-
+/* === Root Background === */
 .Root__top-container {
-  background: transparent !important;
+  background: var(--backdrop-darker) !important;
 }
 
-.Root__top-container::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  background: var(--backdrop-darker);
-  z-index: 0;
-  pointer-events: none;
+.Root__main-view {
+  background-color: transparent !important;
 }
 
 /* === Navigation Bar === */
@@ -53,13 +40,26 @@
 
 .TkqXOzhmCCuE6YI3hlgA,
 .WBFaUw_oOfN2m4aTxggt {
-  backdrop-filter: blur(20px) !important;
+  backdrop-filter: var(--backdrop-blur) !important;
+}
+
+.Root__nav-bar [fade="top"] {
+  mask-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 1) 20%);
+}
+
+.Root__nav-bar [fade="full"] {
+  mask-image: linear-gradient(
+    transparent 0%,
+    rgba(0, 0, 0, 1) 12%,
+    rgba(0, 0, 0, 1) 92%,
+    transparent 100%
+  );
 }
 
 /* === Top Bar === */
 .main-topBar-background {
   background: none !important;
-  backdrop-filter: blur(25px) !important;
+  backdrop-filter: var(--backdrop-blur) !important;
 }
 
 .main-topBar-overlay {
@@ -72,12 +72,16 @@
 
 .Root__globalNav button {
   background-color: var(--backdrop) !important;
-  border-radius: 6px;
+  border-radius: 8px;
 }
 
 /* === Sidebar === */
 #Desktop_LeftSidebar_Id {
   background-color: transparent !important;
+}
+
+#Desktop_LeftSidebar_Id.yXlTmwlWtDebsivA1gM6 {
+  backdrop-filter: var(--backdrop-blur) !important;
 }
 
 .main-yourLibraryX-libraryContainer {
@@ -88,6 +92,7 @@
 /* === Now Playing Bar === */
 .Root__now-playing-bar {
   background-color: var(--backdrop) !important;
+  backdrop-filter: var(--backdrop-blur) !important;
   border-radius: 8px;
   margin: 0 8px 8px;
 }
@@ -98,13 +103,14 @@
 
 /* === Progress Bar === */
 .progress-bar {
-  --bg-color: rgba(255, 255, 255, 0.2);
+  --bg-color: rgba(255, 255, 255, 0.15);
   --fg-color: var(--spice-button);
 }
 
 /* === Cards === */
 .main-card-card {
   background-color: var(--backdrop) !important;
+  border-radius: 6px;
 }
 
 .main-card-card:hover {
@@ -123,14 +129,14 @@
 .main-trackCreditsModal-container,
 .main-aboutRecsModal-container,
 .main-playlistEditDetailsModal-container {
-  background-color: rgba(48, 48, 48, 0.3) !important;
+  background-color: rgba(28, 15, 10, 0.85) !important;
   backdrop-filter: blur(18px) !important;
   border-radius: 8px;
 }
 
 /* === Context Menu === */
 .main-popper-container {
-  background-color: rgba(0, 0, 0, 0.45) !important;
+  background-color: rgba(15, 7, 4, 0.85) !important;
   backdrop-filter: blur(25px) !important;
 }
 
@@ -143,6 +149,7 @@
 /* === Now Playing Sidebar === */
 .main-nowPlayingView-section {
   background-color: var(--backdrop);
+  backdrop-filter: var(--backdrop-blur) !important;
   border-radius: 8px;
   padding: 16px;
 }
@@ -197,7 +204,7 @@
 .main-entityHeader-title,
 .main-trackInfo-name,
 .main-yourLibraryX-listRowSubtitle {
-  text-shadow: -1px 3px 20px rgba(0, 0, 0, 0.2);
+  text-shadow: -1px 3px 20px rgba(0, 0, 0, 0.3);
 }
 
 /* === Snackbars/Notifications === */
