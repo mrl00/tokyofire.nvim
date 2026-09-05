@@ -1,0 +1,191 @@
+/* Tokyo Night Hell — Spicetify Theme */
+/* https://github.com/mrl00/tokyofire.nvim */
+
+/* === Transparent Backgrounds === */
+:root {
+  --spice-main: rgba(28, 15, 10, 0.85) !important;
+  --spice-sidebar: rgba(21, 11, 7, 0.9) !important;
+  --spice-player: rgba(21, 11, 7, 0.9) !important;
+  --spice-card: rgba(51, 26, 18, 0.8) !important;
+  --spice-notification: rgba(255, 119, 51, 0.95) !important;
+  --spice-notification-error: rgba(255, 68, 68, 0.95) !important;
+  --spice-misc: rgba(204, 119, 85, 0.5) !important;
+}
+
+/* === Global === */
+.main-grid-container {
+  background: transparent !important;
+}
+
+.Root__top-container {
+  background: transparent !important;
+}
+
+.Root__nav-bar {
+  background: transparent !important;
+}
+
+/* === Main View === */
+.main-view-container {
+  background: transparent !important;
+}
+
+.main-view-container__scroll-node {
+  background: transparent !important;
+}
+
+/* === Sidebar === */
+.nav-bar {
+  background: transparent !important;
+}
+
+.sidebar {
+  background: transparent !important;
+}
+
+.sidebar-item-wrapper {
+  background: transparent !important;
+}
+
+/* === Player === */
+.player-controls {
+  background: transparent !important;
+}
+
+.playback-bar {
+  background-color: rgba(255, 119, 51, 0.3) !important;
+  border-radius: 4px !important;
+}
+
+.playback-bar__progress-bar {
+  background-color: rgba(255, 119, 51, 0.3) !important;
+}
+
+.progress-bar__bar {
+  background-color: rgba(255, 119, 51, 0.3) !important;
+}
+
+.progress-bar__bar_inner {
+  background-color: var(--spice-button) !important;
+}
+
+/* === Top Bar === */
+.topbar {
+  background: transparent !important;
+}
+
+.Root__top-bar {
+  background: transparent !important;
+}
+
+/* === Cards === */
+.card {
+  background: rgba(51, 26, 18, 0.6) !important;
+  border-radius: 8px !important;
+  transition: background-color 0.2s ease !important;
+}
+
+.card:hover {
+  background: rgba(51, 26, 18, 0.9) !important;
+}
+
+/* === Context Menu === */
+.generic-modal {
+  background: rgba(21, 11, 7, 0.95) !important;
+  border: 1px solid rgba(255, 119, 51, 0.3) !important;
+  border-radius: 8px !important;
+}
+
+/* === Scrollbar === */
+::-webkit-scrollbar {
+  width: 8px !important;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(51, 26, 18, 0.5) !important;
+  border-radius: 4px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 119, 51, 0.5) !important;
+}
+
+/* === Playlist === */
+.playlist-entity-list {
+  background: transparent !important;
+}
+
+.playlist-row {
+  background: transparent !important;
+}
+
+.playlist-row:hover {
+  background: rgba(51, 26, 18, 0.3) !important;
+}
+
+/* === Search === */
+.search-searchSearchBox {
+  background: rgba(51, 26, 18, 0.5) !important;
+  border: 1px solid rgba(255, 119, 51, 0.2) !important;
+  border-radius: 20px !important;
+}
+
+/* === Now Playing === */
+.now-playing-view {
+  background: transparent !important;
+}
+
+/* === Artist Page === */
+.artist-page {
+  background: transparent !important;
+}
+
+/* === Album Page === */
+.album-page {
+  background: transparent !important;
+}
+
+/* === Queue === */
+.queue {
+  background: transparent !important;
+}
+
+/* === Settings === */
+.settings {
+  background: transparent !important;
+}
+
+/* === Equalizer === */
+.equalizer {
+  background: transparent !important;
+}
+
+/* === Lyrics === */
+.lyrics {
+  background: transparent !important;
+}
+
+/* === Fullscreen === */
+.full-screen-player {
+  background: transparent !important;
+}
+
+/* === Friend Activity === */
+.friend-activity {
+  background: transparent !important;
+}
+
+/* === Clean up borders and shadows === */
+.Root__top-bar::before,
+.Root__top-bar::after {
+  display: none !important;
+}
+
+.main-topBar-topBarContent::before,
+.main-topBar-topBarContent::after {
+  display: none !important;
+}

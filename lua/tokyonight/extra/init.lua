@@ -38,6 +38,7 @@ M.extras = {
   process_compose  = { ext = "yaml", url = "https://f1bonacc1.github.io/process-compose/", label = "process-compose" },
   qterminal        = { ext = "colorscheme", url = "https://github.com/lxqt/qterminal", label = "QTerminal" },
   slack            = { ext = "txt", url = "https://slack.com", label = "Slack" },
+  spicetify        = { ext = "ini", url = "https://spicetify.app", label = "Spicetify" },
   sublime          = { ext = "tmTheme", url = "https://www.sublimetext.com/docs/themes", label = "Sublime Text" },
   spotify_player   = { ext = "toml", url = "https://github.com/aome510/spotify-player", label = "Spotify Player" },
   tailwindv4       = { ext = "css", url = "https://tailwindcss.com", label = "Tailwind CSS (v4)" },
