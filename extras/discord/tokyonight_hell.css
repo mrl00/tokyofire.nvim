@@ -16,7 +16,7 @@
   --background-secondary-alt: #150b07;
   --background-tertiary: #0f0704;
   --background-accent: #e88855;
-  --background-floating: #150b07;
+  --background-floating: NONE;
   --background-nested-floating: #150b07;
   --background-mobile-primary: #1c0f0a;
   --background-mobile-secondary: #150b07;
@@ -176,12 +176,12 @@
 }
 
 div[class*="autocomplete_"] {
-    background-color: #150b07 !important;
+    background-color: NONE !important;
 }
 
 div[class*="autocomplete_"]
 div[class*="categoryHeader"] {
-    background-color: #150b07 !important;
+    background-color: NONE !important;
 }
 
 rect[mask="url(#svg-mask-status-online)"] {

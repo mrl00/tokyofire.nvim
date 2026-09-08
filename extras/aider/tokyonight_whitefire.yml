@@ -5,7 +5,7 @@ assistant-output-color: "#fff8f5"
 # code-theme: tokyonight-whitefire
 
 completion-menu-color: "#fff8f5"
-completion-menu-bg-color: "#141110"
+completion-menu-bg-color: "NONE"
 completion-menu-current-color: "#fff8f5"
 completion-menu-current-bg-color: "#2c2523"
 

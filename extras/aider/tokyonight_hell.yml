@@ -5,7 +5,7 @@ assistant-output-color: "#fff0e5"
 # code-theme: tokyonight-hell
 
 completion-menu-color: "#fff0e5"
-completion-menu-bg-color: "#150b07"
+completion-menu-bg-color: "NONE"
 completion-menu-current-color: "#fff0e5"
 completion-menu-current-bg-color: "#331a12"
 
