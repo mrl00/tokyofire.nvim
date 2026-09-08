@@ -28,6 +28,7 @@ return {
   red = "#ff4444",
   red1 = "#dd3333",
   teal = "#ff7744",
+  teal_accent = "#2FE2A6",
   terminal_black = "#4a2218",
   yellow = "#ffbb33",
   git = {

@@ -53,7 +53,7 @@ function M.get(c, opts)
     ["@markup.environment.name"]    = "Type",
     ["@markup.heading"]             = "Title",
     ["@markup.italic"]              = { italic = true },
-    ["@markup.link"]                = { fg = c.teal },
+    ["@markup.link"]                = { fg = c.teal_accent },
     ["@markup.link.label"]          = "SpecialChar",
     ["@markup.link.label.symbol"]   = "Identifier",
     ["@markup.link.url"]            = "Underlined",
@@ -68,7 +68,7 @@ function M.get(c, opts)
     ["@markup.strong"]              = { bold = true },
     ["@markup.underline"]           = { underline = true },
     ["@module"]                     = "Include",
-    ["@module.builtin"]             = { fg = c.red }, -- Variable names that are defined by the languages, like `this` or `self`.
+    ["@module.builtin"]             = { fg = c.teal_accent }, -- Variable names that are defined by the languages, like `this` or `self`.
     ["@namespace.builtin"]          = "@variable.builtin",
     ["@none"]                       = {},
     ["@number"]                     = "Number",
@@ -84,7 +84,7 @@ function M.get(c, opts)
     ["@string.escape"]              = { fg = c.magenta }, -- For escape characters within a string.
     ["@string.regexp"]              = { fg = c.blue6 }, -- For regexes.
     ["@tag"]                        = "Label",
-    ["@tag.attribute"]              = "@property",
+    ["@tag.attribute"]              = { fg = c.teal_accent },
     ["@tag.delimiter"]              = "Delimiter",
     ["@tag.delimiter.tsx"]          = { fg = Util.blend_bg(c.blue, 0.7) },
     ["@tag.tsx"]                    = { fg = c.red },
@@ -94,9 +94,9 @@ function M.get(c, opts)
     ["@type.definition"]            = "Typedef",
     ["@type.qualifier"]             = "@keyword",
     ["@variable"]                   = { fg = c.fg, style = opts.styles.variables }, -- Any variable name that does not have another highlight.
-    ["@variable.builtin"]           = { fg = c.red }, -- Variable names that are defined by the languages, like `this` or `self`.
+    ["@variable.builtin"]           = { fg = c.teal_accent }, -- Variable names that are defined by the languages, like `this` or `self`.
     ["@variable.member"]            = { fg = c.green1 }, -- For fields.
-    ["@variable.parameter"]         = { fg = c.yellow }, -- For parameters of a function.
+    ["@variable.parameter"]         = { fg = c.teal_accent }, -- For parameters of a function.
     ["@variable.parameter.builtin"] = { fg = Util.blend_fg(c.yellow, 0.8) }, -- For builtin parameters of a function, e.g. "..." or Smali's p[1-99]
   }
 
